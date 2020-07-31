@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/li"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/wbs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:visibility="gone"/>
+
+
+        <ImageButton
+            android:id="@+id/wbngl"
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/wb" />
+
+        <ImageButton
+            android:id="@+id/upd"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/up" />
+
+        <ImageButton
+            android:id="@+id/jhrkhnd"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/jhk"
+            />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to home"
+            android:visibility="gone"
+            android:layout_marginTop="500dp"/>
+
+        <ImageButton
+            android:id="@+id/bhr"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bh"
+            />
+
+        <ImageButton
+            android:id="@+id/mpd"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mp" />
+
+        <ImageButton
+            android:id="@+id/hrn"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/hr" />
+
+        <ImageButton
+            android:id="@+id/delh"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/dl"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:id="@+id/utk"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ut" />
+
+        <ImageButton
+            android:id="@+id/hp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/hp" />
+        <ImageButton
+            android:id="@+id/cg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ch" />
+        <ImageButton
+            android:id="@+id/rj"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rj" />
+
+    </LinearLayout>
+</ScrollView>

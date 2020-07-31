@@ -1,0 +1,1262 @@
+<resources>
+    <string name="app_name">KNOW_YOUR_GHAT</string>
+    <string name="my_preference">"com.abc.com.Mypref"</string>
+    <string name="my_preference_key">"comabc.com.Myprefkey"</string>
+    <string-array name="GANGA_WB">
+        <item>Bhutni Ferry Ghat</item>
+        <item>Dhulian Ferry Terminal</item>
+        <item>Dhulian Ghat</item>
+        <item>Gandhi Ghat</item>
+        <item>Panchanandapur Ferry Ghat</item>
+        <item>Parlalpur Ferry Ghat</item>
+        <item>Par Lalpur Ghat</item>
+        <item>P.Narayanpur Lathipitta Ferry Ghat</item>
+    </string-array>
+    <string-array name="HOOGHLY_WB">
+        <item>Ariadaha Burning Ghat</item>
+        <item>Armenian Ferry Ghat</item>
+        <item>Azimganj Ferry Ghat</item>
+        <item>Babughat</item>
+        <item>Ballavpur Cremation Ghat</item>
+        <item>Bally Burning Ghat</item>
+        <item>Belur Burning Ghat</item>
+        <item>Boraichanditala Burning Ghat</item>
+        <item>Burul Ferry Ghat</item>
+        <item>Dakshineswar Ganga Ghat</item>
+        <item>Doltala Gangar Ghat</item>
+        <item>Dutta Ghat</item>
+        <item>Ferry Ghat Konnagar</item>
+        <item>Gandheswari Burning Ghat</item>
+        <item>Gandhi Ghat</item>
+        <item>Ganga River Ghat</item>
+        <item>Ghutiabazar Burning Ghat</item>
+        <item>Halisahar Hindu Crematorium</item>
+        <item>Howrah Ferry Ghat</item>
+        <item>Jagannath Ghat</item>
+        <item>James Prinsep Ghat</item>
+        <item>Judges Ghat of Gangas</item>
+        <item>Kamarhati Pituri Ghat</item>
+        <item>Kashi Mitra Burning Ghat</item>
+        <item>Mahesh Jagannath Cremation Ghat</item>
+        <item>Mayurpankhi Ghat</item>
+        <item>Metiabruz Ferry Ghat</item>
+        <item>Nangi Burning Ghat</item>
+        <item>Nimtala Ghat Crematorium</item>
+        <item>Panihati Burning Ghat</item>
+        <item>Ramghat Samshan</item>
+        <item>Ramkrishnapur Ghat</item>
+        <item>Rishra Burning Ghat</item>
+        <item>Sarbamangala Ghat</item>
+        <item>Shibpur Burning Ghat</item>
+        <item>Shyam Babur Ghat Crematorium</item>
+        <item>Sri Ram Krishna Maha Samshan</item>
+        <item>Tribeni Burning Ghat</item>
+        <item>Ariadaha Burning Ghat</item>
+    </string-array>
+    <string-array name="MAHANANDA_WB">
+        <item>Kiran Chandra Burning Ghat</item>
+    </string-array>
+    <string-array name="DAMODAR_WB">
+        <item>Amarpur Ferry Ghat</item>
+        <item>Anchal Ferry Ghat</item>
+        <item>Babla Tola Ghat</item>
+        <item>Balamhat Bali Ghat</item>
+        <item>Bali Ghat</item>
+        <item>Barsul Ferry Ghat</item>
+        <item>Bhagloi Nadi Ghat</item>
+        <item>Boalia Ferry Ghat</item>
+        <item>Chinakuri Shiv Mandir Ram Ghat</item>
+        <item>Dehibhursut Jhanda Ferry Ghat</item>
+        <item>Dishergarh Sashan Ghat</item>
+        <item>Garchumuk Ferry Ghat</item>
+        <item>Hijalna Ferry Ghat</item>
+        <item>Jamudaha Ferry Ghat</item>
+        <item>Jiara Ghat</item>
+        <item>Joyt Chand Ferry Ghat</item>
+        <item>Kalajharia Burning Ghat</item>
+        <item>Kali Tola Ferry Ghat</item>
+        <item>Kanaria Samsan Ghat</item>
+        <item>Khaya Ghat</item>
+        <item>Kulitapara Ferry Ghat</item>
+        <item>Madhabpur Ferry Ghat</item>
+        <item>Nimtala Sashan Ghat</item>
+        <item>Nowpara Ferry Ghat</item>
+        <item>Purba Bainan Ferry Ghat</item>
+        <item>Randiha Ferry Ghat</item>
+        <item>Randiha Ghat</item>
+        <item>Shilampur Ferry Ghat</item>
+        <item>Shumbhupur Ferry Ghat</item>
+        <item>Srirampur Ghat</item>
+        <item>Telkupi Barni Ghat</item>
+    </string-array>
+    <string-array name="GANGA_BH">
+        <item>Adarsh Ghat</item>
+        <item>Aguani Ghat</item>
+        <item>Babupur Ghat</item>
+        <item>Bengali Baba Ghat</item>
+        <item>Bhadra Ghat</item>
+        <item>Digha Ghat</item>
+        <item>Duli Ghat</item>
+        <item>Gai Ghat</item>
+        <item>Gandhi Ghat</item>
+        <item>Jahanvi Brahmbaba Ghat</item>
+        <item>Kahalgaon Ghat</item>
+        <item>Khajekalan Ghat</item>
+        <item>Mahavir Ghat</item>
+        <item>Manihari Ghat</item>
+        <item>Mokama Ghat</item>
+        <item>Rasulpur Ghat</item>
+        <item>Sita Ghat</item>
+        <item>Sultanganj Ghat</item>
+    </string-array>
+    <string-array name="GANDHAK_BH">
+        <item>Baladas Ghat</item>
+        <item>Gandhak Ghat</item>
+        <item>Kaali Ghat</item>
+        <item>Kaushaliya Ghat</item>
+        <item>Konhara Ghat</item>
+        <item>Naulakha Ghat</item>
+        <item>Sidhi Ghat</item>
+    </string-array>
+    <string-array name="GHAGHARA_BH">
+        <item>Chhath Ghat</item>
+        <item>Girnari Ghat Mathia Darauli</item>
+        <item>Manghi Ghat</item>
+        <item>Panch Mandir Ghat</item>
+        <item>Rakauli Ghat</item>
+    </string-array>
+    <string-array name="KOSI_BH">
+        <item>Dangrahi Ghat</item>
+        <item>Kaari Koshi Ghat Katihar</item>
+    </string-array>
+    <string-array name="BHURIGHANDHAK_BH">
+        <item>Bisanpur Ghat</item>
+        <item>Chattpuja Ghat Mansi</item>
+        <item>Lakri Dhai Ghat</item>
+        <item>Sangam Ghat</item>
+        <item>Rani Shiv Mandir Raini Ghat</item>
+    </string-array>
+    <string-array name="GANGA_UP">
+        <item>Nishadraj Ghat</item>
+        <item>Raj Ghat</item>
+        <item>Rani Ghat</item>
+        <item>Telianala Ghat</item>
+        <item>Sakka Ghat</item>
+        <item>Trilochan Ghat</item>
+        <item>Gaay Ghat</item>
+        <item>Sheetala Ghat</item>
+        <item>Bundi Parkota Ghat</item>
+        <item>Brahma Ghat</item>
+        <item>Panchaganga Ghat</item>
+        <item>Jatar Ghat</item>
+        <item>Ram Ghat</item>
+        <item>Mehta Ghat</item>
+        <item>Naya Ghat</item>
+        <item>Bhonsale Ghat</item>
+        <item>Ganga Mahal Ghat</item>
+        <item>Sankatha Ghat</item>
+        <item>Aadi Keshav Ghat</item>
+        <item>Ganga River Bank</item>
+        <item>Gola Ghat</item>
+        <item>Nandeshwar Ghat</item>
+        <item>Venimadhava Ghat</item>
+        <item>Mangala Gouri Ghat</item>
+        <item>Raja Gwalior Ghat</item>
+        <item>Guleia Ghat</item>
+        <item>Shree Ganesh mandir Ghat</item>
+        <item>Scindia Ghat</item>
+        <item>Dattatreya Ghat</item>
+        <item>Ratneswar Mahadev Mandir</item>
+        <item>Ganga Ghat-Vishwanath Mandir</item>
+        <item>Manikarnika Ghat</item>
+        <item>Jalsen Ghat</item>
+        <item>Lalita Ghat</item>
+        <item>Nepali Ghat</item>
+        <item>Meer Ghat</item>
+        <item>Dr.Rajendraprasad Ghat</item>
+        <item>Prayag Ghat</item>
+    </string-array>
+    <string-array name="KALIGANDHAK_UP">
+        <item>Keshi Ghat</item>
+        <item>Thakurani Ghat</item>
+        <item>Koyla Ghat</item>
+        <item>Bramhananda Ghat</item>
+        <item>Pohiya Ghat</item>
+        <item>Yamuna Aarti Ghat</item>
+        <item>Saraswati Ghat</item>
+        <item>Ferry Ghat</item>
+        <item>Visram Ghat</item>
+        <item>Chatth Puja Ghat</item>
+        <item>Sangam Ghat(Ganga+Yamuna+Saraswati)</item>
+        <item>Triveni Ghat</item>
+        <item>Baradari Ghat</item>
+        <item>Bargad Ghat</item>
+        <item>Vasudev Ghat</item>
+        <item>Prachin Akhara Swami Ghat</item>
+        <item>Mukti Dham Ghat</item>
+        <item>Haathi Ghat</item>
+        <item>Harivansh Ghat</item>
+        <item>Raman Reti Yamuna Ghat</item>
+        <item>Yamuna bank Gokul Ghat</item>
+        <item>Balkeswar Ghat(Funeral)</item>
+        <item>Ram Ghat</item>
+        <item>Madaur Yamuna Ghat</item>
+        <item>Yamuna Temple</item>
+        <item>Khadera Ghat haridas Baba</item>
+        <item>Bisrant Ghat</item>
+    </string-array>
+    <string-array name="GOMTI_UP">
+        <item>Devdeveswar Mandir</item>
+        <item>Gulala Samshan Ghat</item>
+        <item>Gomti Riverfront park</item>
+        <item>Kuria ghat park</item>
+        <item>Khirki Ghat Kishni</item>
+        <item>Gomti Dhobi Ghat</item>
+        <item>Maharishi Devraha Ghat Temple</item>
+        <item>Baikunth Dham Ghat(Cremation)</item>
+        <item>Piparghat Samshan Sthaal</item>
+        <item>Hanuman Ghat</item>
+        <item>Gokul Ghat</item>
+        <item>Madhura Gomti Ghat</item>
+        <item>Kudia Ghat</item>
+    </string-array>
+    <string-array name="GHAGHARA_UP">
+        <item>Naya Ghat</item>
+        <item>Ram Janki Mandir Dhemua Ghat</item>
+        <item>Guptar Ghat</item>
+        <item>Godiyana Ghat</item>
+        <item>Chahlari Ghat Bridge</item>
+        <item>Katarniya Ghat Boating Center</item>
+        <item>Saryu Ghat</item>
+        <item>Syama Sadan mandir Ramghat</item>
+        <item>Gau Ghat</item>
+        <item>Samshan Ghat Haldirampur</item>
+    </string-array>
+    <string-array name="TAMSA_MP">
+        <item>Sati Ghat</item>
+        <item>Masjid Ghat Wali</item>
+        <item>Belwaghat Mau</item>
+        <item>BandiGhat Shiv</item>
+        <item>Shiv Mandir Raj Ghat</item>
+        <item>Shiv Mandir Dhauraharaghat</item>
+        <item>Barasat Ghat Masjid</item>
+        <item>Walidpur Ghat Mandir</item>
+        <item>Piyaropur Samsan Ghat</item>
+        <item>Kali Ghat</item>
+        <item>Gauri Shankar Ghat</item>
+    </string-array>
+    <string-array name="YAMUNA_DEL">
+        <item>Shyam Ghat Mandir</item>
+        <item>Shyam Ghat </item>
+        <item>Sur Ghat</item>
+        <item>Ganpati Visarjan Ghat</item>
+        <item>Dayadham Yamuna Aarti Ghat</item>
+        <item>Ganesh Ghat</item>
+        <item>Jamnapaar Ghat</item>
+        <item>Shamshaan Ghat</item>
+        <item>Nigambodh Cremation Ghat</item>
+        <item>Shamshaan Ghat Geeta Colony</item>
+        <item>Kalindi Kunj Samshan Ghat</item>
+        <item>Kashmiri Ghat</item>
+        <item>Kashyap Ghat</item>
+        <item>Yamuna Ghat</item>
+        <item>Chatth Ghat</item>
+        <item>Madanpur Khadar Samshan Ghat</item>
+        <item>Vishwakarma Chatth Ghat</item>
+    </string-array>
+    <string-array name="GANGA_UK">
+        <item>Satrughana Temple Ghat</item>
+        <item>Ram Jhoola Ganga Ghat</item>
+        <item>Parmarth Niketan</item>
+        <item>Purnand Ghat</item>
+        <item>Triveni Ghat</item>
+        <item>Sarvanand Ghat</item>
+        <item>Har ki Pauri Ghat</item>
+        <item>Kusha Ghat</item>
+        <item>Chaudhary Charan Singh Ghat</item>
+        <item>Ganga Aarti Sthaal</item>
+        <item>Haridwar Ghat</item>
+        <item>Alakananda Ghat</item>
+        <item>Shri Ram Ghat</item>
+        <item>Mahamama Ghat</item>
+        <item>Maharishi Kasyap Ghat</item>
+        <item>Vivekanand Ghat</item>
+        <item>Shree Govind Ghat</item>
+        <item>Vishwakarma Ghat</item>
+        <item>Sadguru dev shree hans ji maharaj pawan ghat</item>
+        <item>Prem Nagar Ashram Ghat old</item>
+        <item>Prem Nagar Ashram Ghat new</item>
+        <item>Ganga Ghat of Singh Dwar</item>
+        <item>Bhagirathi Ghat</item>
+        <item>Beerbhadra Ganga Ghat</item>
+        <item>Bhagirathi Alakananda Sangam Ghat</item>
+        <item>Devprayag Ghat</item>
+        <item>Ganga Ghat</item>
+    </string-array>
+    <string-array name="GANGA_JHR">
+        <item>Samda River Ganga Port</item>
+        <item>Suryadev Chhat Ghat</item>
+        <item>Shiv Mandir Gudara Ghat</item>
+        <item>Rajmahal Ferry Ghat</item>
+        <item>Salempur Ghat</item>
+        <item>Bhutni Ferry Ghat</item>
+        <item>Sakri Gali Ghat</item>
+        <item>Manikchak Ferry Ghat</item>
+    </string-array>
+    <string-array name="SONE_JHR">
+        <item>Deori Samsan Ghat</item>
+    </string-array>
+    <string-array name="Bhutni_Ferry_Ghat_GWB">
+        <item>25.098574</item>
+        <item>87.845560</item>
+        <item>Chandipurmal, West Bengal 732203</item>
+        <item>No Description Available</item>
+        <item>Bus Service Available</item>
+    </string-array>
+    <string-array name="P.Narayanpur_Lathipitta_Ferry_Ghat_GWB">
+        <item>24.958514</item>
+        <item>87.979247</item>
+        <item>Birodhi, West Bengal 732207</item>
+        <item>No Description Available</item>
+        <item>Bus Service Available</item>
+    </string-array>
+    <string-array name="Panchanandapur_Ferry_Ghat_GWB">
+        <item>25.098574</item>
+        <item>87.845560</item>
+        <item>Birodhi, West Bengal 732207</item>
+        <item>It is on the bank of the Ganges in Malda District, WB. Though underdeveloped it is market place.  The main stream of the Ganges is 500 mtr away from it. Due to silt  an island has been formed in between main stream and sub stream. Hundreds of motorized boats ply every day transportation of goods and people from WB to Bihar. Stone chips are carried by big motorised Boats from Bihar to the ghat from where it is carried to different part of Malda and surrounding districts for construction work.</item>
+        <item>Bus Service Available</item>
+    </string-array>
+    <string-array name="Gandhi_Ghat_GWB">
+        <item>24.809222</item>
+        <item>87.918330</item>
+        <item>Farakka Barrage Twp, West Bengal</item>
+        <item>No Description Available</item>
+        <item>Bus, Taxi, Auto Service Available, Nearest Railway Station - Farraka</item>
+    </string-array>
+    <string-array name="Dhulian_Ghat_GWB">
+        <item>24.685807</item>
+        <item>87.956485</item>
+        <item>Bidhan Chandra Rd, Singh Para, Dhuliyan, West Bengal 742202</item>
+        <item>No Description Available</item>
+        <item>Bus, Taxi, Auto Service Available, Nearest Railway Station - Farraka</item>
+    </string-array>
+    <string-array name="Dhulian_Ferry_Terminal_GWB">
+        <item>24.687398</item>
+        <item>87.955513</item>
+        <item>Dhuliyan, West Bengal 742202</item>
+        <item>No Description Available</item>
+        <item>Bus, Taxi, Auto Service Available, Dhulian Parlalpur Ferry Service, Nearest Railway Station - Farraka</item>
+    </string-array>
+    <string-array name="Par_Lalpur_Ghat_GWB">
+        <item>24.689459</item>
+        <item>87.965276</item>
+        <item>Par Anupnagar, West Bengal 732210</item>
+        <item>No Description Available</item>
+        <item>Bus, Taxi, Auto Service Available, Nearest Railway Station - Farraka</item>
+    </string-array>
+    <string-array name="Parlalpur_Ferry_Ghat_GWB">
+        <item>24.685807</item>
+        <item>87.956485</item>
+        <item>Bidhan Chandra Rd, Singh Para, Dhuliyan, West Bengal 742202</item>
+        <item>No Description Available</item>
+        <item>Bus, Taxi, Auto Service Available, Nearest Railway Station - Farraka</item>
+    </string-array>
+    <string-array name="Armenian_Ferry_Ghat_HWB">
+        <item>22.580538</item>
+        <item>88.347314</item>
+        <item>B.B.D. Bag, Kolkata, West Bengal 700007</item>
+        <item>It was built in 1734 by Manvel Hazaar Maliyan, a celebrated Calcutta trader of Armenian origin. This elegant ferry Ghat was just one of the many contributions made by the benevolent Armenian toward developing Calcutta’s infrastructure and sociocultural rapport. Well maintained and clean Ghat beside Chotelal Ki Ghat. Nice for photography sessions with the scenic Rabindra Setu (Howrah Bridge) and Howrah Station on the opposite banks of the river Hooghly. Nearby Mallick Ghat Flower Market.</item>
+        <item>Golabari Armenian Ferry Service, Armenian Howrah Station Ferry Service, Bus service, Taxi Service, Near Howrah Tram Depot. Nearby Railway Station - Howrah Junction, B.B.D. Bag</item>
+    </string-array>
+    <string-array name="Azimganj_Ferry_Ghat_HWB">
+        <item>24.235386</item>
+        <item>88.260931</item>
+        <item>67P6+49 Jiaganj Azimganj, West Bengal</item>
+        <item>Famous for the cheap ferry service connecting Azimganj and Jiaganj cities.</item>
+        <item>Azimganj Neemtala Ferry Ghat Service, Nearby Railway Station – Azimganj Junction </item>
+    </string-array>
+    <string-array name="Babughat_HWB">
+        <item>22.568048</item>
+        <item>88.341086</item>
+        <item>Strand Rd, B.B.D. Bagh, Kolkata, West Bengal 700021</item>
+        <item> The ghat has a tall colonial structure, which is the landing berth of the ghat. It is a fine Doric-Greek style pavilion with huge pillars. The ghat, originally known was Baboo Raj Chandra Ghat, is now only known by first words Baboo-ghat or Babu-ghat. Babu / Baboo in Bengali means Sahib or gentleman. The ghat is named after Babu Raj Chandra Das, husband of Rani Rashmoni and zamindar of Janbazar, who built it in 1830, in memory of her late husband. A marble tablet beneath the pediment implies that some of the credit for the erection of the ghat must go to Lord William Bentinck as he encouraged such spending with a view to improve public amenities. It is second oldest ghat of Kolkata. Close to Eden Gardens and Netaji Indoor Stadium. Close to Calcutta High Court. Near Millenium Park. Neighbour ghats - West Bengal Tourist Jetty, Outram Ghat</item>
+        <item>Ramkrishnapur Babughat Ferry Service, Babughat Howrah Station Ferry Service, Babughat Bus Stand, Cab, Taxi, Auto, Horse Carts available </item>
+    </string-array>
+    <string-array name="Burul_Ferry_Ghat_HWB">
+        <item>22.362829</item>
+        <item>88.104890</item>
+        <item>Burul, West Bengal 743318</item>
+        <item>Known for its Picnic Spot. Cleanliness of the Ghat is a concern among locals. Nearby food stalls available. Boating can be done. Nearby Park - Burul Haribashor Park</item>
+        <item>Burul 58 Gate Ferry Service</item>
+    </string-array>
+    <string-array name="Dakshineswar_Ganga_Ghat_HWB">
+        <item>22.655039</item>
+        <item>88.357045</item>
+        <item>92, Rani Rashmoni Road, May Dibas Pally, Dakshineswar, Kolkata, West Bengal 700076</item>
+        <item>Located near Dakshineswar Temple, on the Banks of River Hooghly. The Scenic Vivekananda Setu and Nivedita Bridge nearby. The Belgharia Expressway, Dankuni Toll Plaza of NH2 and the Calcutta Grand Chord Railway Line in close vicinity. Nearby Jetty Ghat – Maa Bhabotarini Ferry Ghat connecting Uttarpara and Dakshineswar. Nearby Ghat – Ganga River Ghat</item>
+        <item>Bus service, Taxi Service available, Nearby Railway Station – Dakshineswar, Bally Ghat</item>
+    </string-array>
+    <string-array name="Doltala_Ganga_Ghat_HWB">
+        <item>22.668437</item>
+        <item>88.351249</item>
+        <item>Grand Trunk Rd, Bhadrakali, Uttarpara, West Bengal 712258</item>
+        <item>Known for its clean Ghat and surrounding peaceful atmosphere. Different types of Restaurants nearby. </item>
+        <item>Nearby Ferry Service – Uttarpara Kheya Ghat to Ariadaha Ferry Ghat Service</item>
+    </string-array>
+    <string-array name="Ferry_Ghat_Konnagar_HWB">
+        <item>22.700640</item>
+        <item>88.359680</item>
+        <item>Rammohan Place, Konnagar, Khardaha, West Bengal 712235</item>
+        <item>Nearby Ghat – Singhi Ghat</item>
+        <item>Konnagar Panihati Ferry Service, Nearest railway Station – Konnagar</item>
+    </string-array>
+    <string-array name="Howrah_Ferry_Ghat_HWB">
+        <item>22.582535</item>
+        <item>88.343547</item>
+        <item>Howrah Railway Station, Howrah, West Bengal 711101</item>
+        <item>Situated beside the Howrah Junction Railway Station, this ferry ghat connects to different parts of Kolkata providing cheap service. </item>
+        <item>Ferry routes – Howrah Station Armenian Ferry Ghat Service, Howrah Station Fairlyplace Ferry Service, Howrah Kolkata Ferry, Howrah West Bengal Tourist Ghat Ferry, Howrah Sovabazar Bagbazar ferry, Howrah Babughat Outram Ghat ferry Service.</item>
+    </string-array>
+    <string-array name="Metiabruz_Ferry_Ghat_HWB">
+        <item>22.551693</item>
+        <item>88.286091</item>
+        <item>Bichali Ghat Rd, Kolkata, West Bengal 700024</item>
+        <item>Situated near the Netaji Subhash Dock (Kolkata Port), no place to sit and admire beauty. </item>
+        <item>Ferry Service from Metiabruz to Nazirganj. Nearest Station – Santoshpur Station</item>
+    </string-array>
+    <string-array name="Ramkrishnapur_Ghat_HWB">
+        <item>22.571741</item>
+        <item>88.335752</item>
+        <item>Choura Bustee, Shibpur, Howrah, West Bengal 711101</item>
+        <item>Immersion of God Idols (Thakur Bisarjan) done here. Also famous for the Ganga Aarti that takes place during evening.</item>
+        <item>Babughat to Ramkrishnapur Ghat ferry service. Nearest Station – Howrah Jn Station</item>
+    </string-array>
+    <string-array name="Ganga_River_Ghat_HWB">
+        <item>22.655912</item>
+        <item>88.356891</item>
+        <item>Choura Bustee, Shibpur, Howrah, West Bengal 711101</item>
+        <item>Situated in the Famous Dakshineswar Kali Temple compound and beside the Dakshineswar Ganga Ghat. Known for its peaceful environment and scenic beauty. </item>
+        <item>Nearby Station – Dakshineswar, Bally Ghat.</item>
+    </string-array>
+    <string-array name="Jagannath_Ghat_HWB">
+        <item>22.587724</item>
+        <item>88.349784</item>
+        <item>Strand Bank Rd, Kolkata, West Bengal 700007</item>
+        <item>Very congested area with dirty environment. Situated in the famous Strand Road area known for the loading and unloading of goods trucks. Highly Populated and heavy traffic.</item>
+        <item>Closest Station – Barabazar Station, Howrah Jn Station.</item>
+    </string-array>
+    <string-array name="Judges_Ghat_of_Ganges_HWB">
+        <item>22.561741</item>
+        <item>88.335575</item>
+        <item>Strand Rd, Babu Bagan, Kolkata, West Bengal 700021</item>
+        <item>Known for the river port, and boating available. Near Eden Gardens and Babughat. </item>
+        <item>Nearest Station- Prinsep Ghat, Eden Gardens</item>
+    </string-array>
+    <string-array name="Kamarhati_Pituri_Ghat_HWB">
+        <item>22.680802</item>
+        <item>88.365195</item>
+        <item>9, Kamarhati, Agarpara, Kolkata, West Bengal 700058</item>
+        <item>Known for many Temples of Lord Shiva, Devi Durga and Kali Maa near the place. Has an open air Gym and fitness area. It gets flooded sometimes during monsoons.</item>
+        <item>Nearest Station – Agarpara</item>
+    </string-array>
+    <string-array name="Sarbamangala_Ghat_HWB">
+        <item>22.619424</item>
+        <item>88.368457</item>
+        <item>7, Khagendra Chatterjee Road, Cossipore, Kolkata, West Bengal 700002</item>
+        <item>A neat and clean ghat with Lord Jagannath Temple in the vicinity. </item>
+        <item>Nearest Station – Dum Dum Jn, Tala Station</item>
+    </string-array>
+    <string-array name="Mayurpankhi_Ghat_HWB">
+        <item>22.897177</item>
+        <item>88.404181</item>
+        <item>314, Bhudev Mukherjee Rd, Chinsurah R S, Kolkata, West Bengal 712101</item>
+        <item>Neat and Clean Ghat with a Mayur Pankhi sitting area made by local authorities. Pay and Use toilet and Women dressing room available.</item>
+        <item>Nearest Station – Hooghly Ghat and Hooghly, Nearby Ghat- Hooghly Ferry Ghat</item>
+    </string-array>
+    <string-array name="Gandhi_Ghat_HWB">
+        <item>22.752789</item>
+        <item>88.362251</item>
+        <item>Cantonment, Barrackpore, West Bengal 700120</item>
+        <item>Known for its picnic spot and Mahatma Gandhi Memorial.</item>
+        <item>Nearby Station Barrackpore, Nearby Ghat- Shib Ghat</item>
+    </string-array>
+    <string-array name="James_Prinsep_Ghat_HWB">
+        <item>22.555350</item>
+        <item>88.331118</item>
+        <item>Strand Rd, Maidan, Fort William, Hastings, Kolkata, West Bengal 700021</item>
+        <item>It was built in 1841 during the British Raj, along the Kolkata bank of the Hooghly River in India. The Palladian porch in the memory of the eminent Anglo-Indian scholar and antiquary James Prinsep was designed by W. Fitzgerald and constructed in 1843. Known for the Monument and the picnic spot and boating is available. Scenic view of Vidyasagar Setu (2nd Hooghly Bridge).</item>
+        <item>Nearest Station – Princep Ghat</item>
+    </string-array>
+    <string-array name="Tribeni_Burning_Ghat_HWB">
+        <item>22.984437</item>
+        <item>88.401828</item>
+        <item>Tribeni Ghat Rd, Benimadhabtala, Tribeni, Jatrasudi, West Bengal 712503</item>
+        <item>Pindi Dan and Asthi viswarjan done here. Boating available. </item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Gandheswari_Burning_Ghat_HWB">
+        <item>22.942545</item>
+        <item>88.406009</item>
+        <item>Khamar Para Gandeshwari Tala, SH 1, Khamarpara Bakul Tala, Bansberia, West Bengal 712502.</item>
+        <item>No description Available</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Halisahar_Hindu_Crematorium_HWB">
+        <item>22.941719</item>
+        <item>88.414010</item>
+        <item>Halisahar, Kanchrapara, West Bengal 743134</item>
+        <item>A neat clean environment and a clean crematorium.</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Ramghat_Samshan_HWB">
+        <item>22.906222</item>
+        <item>88.406580</item>
+        <item>Garifa, Naihati, Kolkata, West Bengal 743165</item>
+        <item>No description Available.</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Ghutiabazar_Burning_Ghat_HWB">
+        <item>22.902447</item>
+        <item>88.403561</item>
+        <item>Chinsurah R S, Chinsurah, West Bengal 712101</item>
+        <item>No description Available.</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Shyam_Babur_Ghat_Crematorium_HWB">
+        <item>22.878984</item>
+        <item>88.395524</item>
+        <item>Kamarpara More, Taldanga, Dharampur, Chinsurah, West Bengal 712101</item>
+        <item>No description Available.</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Boraichanditala_Burning_Ghat_HWB">
+        <item>22.866763</item>
+        <item>88.378687</item>
+        <item>Sarishapara, Boraichanditala, Chandannagar, West Bengal 712136</item>
+        <item>No description Available.</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Ballavpur_Cremation_Ghat_HWB">
+        <item>22.744770</item>
+        <item>88.355611</item>
+        <item>Thakurbati St, Maniktala, Serampore, West Bengal 712201</item>
+        <item>No description Available.</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Mahesh_Jagannath_Cremation_Ghat_HWB">
+        <item>22.734207</item>
+        <item>88.356943</item>
+        <item>Lakhi Ghat, Mahesh, Mahesh Bose Para, Serampore, West Bengal 712202</item>
+        <item>No description Available.</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Rishra_Burning_Ghat_HWB">
+        <item>22.720691</item>
+        <item>88.355369</item>
+        <item>Ferry Ghat, Bangur Park, Rishra, Pandit Satghara, West Bengal 712248</item>
+        <item>Electric Chulli Present In this crematorium</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Panihati_Burning_Ghat_HWB">
+        <item>22.692821</item>
+        <item>88.366885</item>
+        <item>195/1, Mitrapara, Angles Nagar Colony, Kamarhati, Agarpara, Kolkata, West Bengal 700110</item>
+        <item>Drinking water available. Clean toilets nearby. 24 hours security camera surveillance.</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Nangi_Burning_Ghat_HWB">
+        <item>22.513341</item>
+        <item>88.211222</item>
+        <item>Nangi Station Road, Nangi, Budge Budge, Kolkata, West Bengal 700140</item>
+        <item>Neat and Clean Crematorium and Clean Ghat. Nearby Ghat Batanagar New Ferry Ghat</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Shibpur_Burning_Ghat_HWB">
+        <item>22.560666</item>
+        <item>88.325372</item>
+        <item>Choura Bustee, Shibpur, Howrah, West Bengal 711102</item>
+        <item>Neat and Clean Crematorium and Clean Ghat. Nearby Ghat Batanagar New Ferry Ghat</item>
+        <item>Bus service available, Closest Railway Station - Shalimar</item>
+    </string-array>
+    <string-array name="Nimtala_Ghat_Crematorium_HWB">
+        <item>22.593581</item>
+        <item>88.351870</item>
+        <item>Strand Bank Rd, Ahiritola, Jorabagan, Kolkata, West Bengal 700006</item>
+        <item>The burning ghat was constructed in 1827. In 2010 the central government of India upgraded the crematorium at a cost of INR ₹140 million (US$2.0 million). The Bengali polymath Rabindranath Tagore was cremated here in 1941. The Rabindranath Tagore Memorial in the crematorium compound was beautified as part of the 2010 project. The ghat has also been represented in popular literature. It plays a significant part in the plot of the 2013 Kerala Sahitya Akademi Award winning Malayalam novel, Aarachaar, by K. R. Meera. </item>
+        <item>Bus service available, Closest Railway Station – Bara Bazar</item>
+    </string-array>
+    <string-array name="Kashi_Mitra_Burning_Ghat_HWB">
+        <item>22.602246</item>
+        <item>88.362003</item>
+        <item>27, Strand Bank Rd, Sovabazar, Malipanchghara, Bagbazar, Kolkata, West Bengal 700003</item>
+        <item>Electric Chulli available in crematorium.</item>
+        <item>Bus service available, Closest Railway Station – Bagbazar</item>
+    </string-array>
+    <string-array name="Belur_Burning_Ghat_HWB">
+        <item>22.624099</item>
+        <item>88.360657</item>
+        <item>21, Ram Lochan Shire St, Belur Math, Howrah, West Bengal 711204</item>
+        <item>No description Avaliable</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Sri_Ram_Krishna_Maha_Samshan_HWB">
+        <item>22.631224</item>
+        <item>88.364813</item>
+        <item>Chandra Kumar Roy Ln, Kutighat, Baranagar, Kolkata, West Bengal 700002</item>
+        <item>The Samadhisthal of Bhagwan Sri Ramakrishna Dev whose last rites were performed here after his mahasamadhi on 16th Aug1886. This is also known as Kashipur Mahasamshan. </item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Bally_Burning_Ghat_HWB">
+        <item>22.647692</item>
+        <item>88.351169</item>
+        <item>179, Grand Trunk Rd Howrah, West Bengal 711205</item>
+        <item>Electric burning chully available in cremation ghat. It is situated at G.T. road, near Bally municipal corporation office.</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Ariadaha_Burning_Ghat_HWB">
+        <item>22.666375</item>
+        <item>88.358076</item>
+        <item>4, NC Chatterjee Rd, Dakshineswar, Kolkata, West Bengal 700057</item>
+        <item>Clean, hygienic and well maintained burning ghat must say. Fee - 500/-(All inclusive). Large waiting room available. Ladies and Gents both toilet available. </item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Dutta_Ghat_HWB">
+        <item>22.881014</item>
+        <item>88.398730</item>
+        <item>26/1, Ghatakpara, Chinsurah R S, Kolkata, West Bengal 712101</item>
+        <item>Known for its ambient environment and scenic beauty </item>
+        <item>Bus service available, Nearest railway Station - Chuchura</item>
+    </string-array>
+    <string-array name="Shyam_Ghat_Mandir_YDEL">
+        <item>28.744013</item>
+        <item>77.225492</item>
+        <item>Shyam Ghat Mandir, Jagatpur, Delhi</item>
+        <item>No Description Available</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Shyam_Ghat_YDEL">
+        <item>28.744013</item>
+        <item>77.225492</item>
+        <item>Wazirabad, New Delhi, Delhi 110084</item>
+        <item>Pollution level high in this area due to insufficient number of garbage dumps, also idols of gods are thrown at the river causing water pollution. </item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Sur_Ghat_YDEL">
+        <item>28.710211</item>
+        <item>77.230030</item>
+        <item>Wazirabad Rd, Majnu-ka-tilla, Timarpur, Delhi, 110094</item>
+        <item>This is a cemented pond just beside the Yamuna river. Water is filled upto 3 ft.   Many people prefer here to do Chatth Pooja here as it is along the yamuna river and is filled with Yamuna water , it is safer than Yamuna river as well because even the children cannot drown in this.</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Ganpati_Visarjan_Ghat_YDEL">
+        <item>28.686037</item>
+        <item>77.232111</item>
+        <item>Usmanpur, Shahdara, Delhi, 110094</item>
+        <item>Lord Ganesh puja and idol viswarjan done here. </item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Dayadham_Yamuna_Aarti_Ghat_YDEL">
+        <item>28.676182</item>
+        <item>77.231906</item>
+        <item>Yamuna thirth bela road, New Delhi, Delhi 110006</item>
+        <item>Famous for Sandhya Aarti. Different puja viswarjan are done here.</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Ganesh_Ghat_YDEL">
+        <item>28.665313</item>
+        <item>77.237375</item>
+        <item>Kashmere Gate, New Delhi, Delhi 110006</item>
+        <item>Boating available.</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Kashmiri_Ghat_YDEL">
+        <item>28.664575</item>
+        <item>77.238863</item>
+        <item>Kashmere Gate, New Delhi, Delhi 110006</item>
+        <item>It was the area around the North gate of the walled city of the Delhi, leading to the Laal Quila, the Red Fort of Delhi, the gate was facing towards Kashmir, so it was named Kashmere Gate under British Raj. The monument can still be seen. The southern gate to the walled city is called Delhi Gate. Nearby ghats--- Yamuna ghat, Nigambodh ghat. Nearby Markets—Monastery market, Guru nanak auto market, shabi market.</item>
+        <item>Nearby railway station – the old Delhi railway station, Kashmere gate(metro station), Transportation – Train service, Metro service</item>
+    </string-array>
+    <string-array name="Kashyap_Ghat_YDEL">
+        <item>28.664443</item>
+        <item>77.239054</item>
+        <item>Ghat no 22-23 yamuna bazar, Kashmere Gate, New Delhi, Delhi 110006</item>
+        <item>No Description Available</item>
+        <item>Nearby railway station – the old Delhi railway station, Kashmere gate(metro station), Transportation – Train service, Metro service</item>
+    </string-array>
+    <string-array name="Yamuna_Ghat_YDEL">
+        <item>28.664179</item>
+        <item>77.239474</item>
+        <item>Kashmere Gate, New Delhi, Delhi 110006</item>
+        <item>Beautiful landscape soothing view of the migratory birds and calm Yamuna River. Amidst the river is a small temple. The river is loaded with garbage and dirt on the bank and the area surrounding the bank of river needs to be cleaned and well maintained.</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Jamnapaar_Ghat_YDEL">
+        <item>28.651204</item>
+        <item>77.266533</item>
+        <item>Geeta Colony, Delhi, 110031</item>
+        <item>No Description Available</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Vishwakrma_Chatt_Ghat_YDEL">
+        <item>28.513218</item>
+        <item>77.3444530</item>
+        <item>New Delhi</item>
+        <item>No Description Available</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Chatth_Ghat_YDEL">
+        <item>27.144215</item>
+        <item>83.759789</item>
+        <item>Yamuna River</item>
+        <item>Nearby ghats - Yamuna ghat. Nearby Markets — DDA market</item>
+        <item>Nearby railway station – Indraprastha, Pragati Maidan,ITO. Transportation – Train service, Metro service</item>
+    </string-array>
+    <string-array name="Shamshaan_Ghat_YDEL">
+        <item>28.843088</item>
+        <item>77.214609</item>
+        <item>Jhangola, Delhi, 110036</item>
+        <item>No Description Available</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Nigambodh_Cremation_Ghat_YDEL">
+        <item>28.664231</item>
+        <item>77.235788</item>
+        <item>Ring Rd, opp. Hanuman Mandir, Kashmere Gate, New Delhi, Delhi 110006</item>
+        <item>Open 24 hours. Proper parking available. CNG cremation facility present here. Neat and clean washrooms and drinking water facility available. </item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Shamshaan_Ghat_Geeta_Colony_YDEL">
+        <item>28.654699</item>
+        <item>77.264253</item>
+        <item>Police Booth, Safeda Jhuggi, Geeta Colony Rd, Geeta Colony, New Delhi, Delhi 110031</item>
+        <item>Known for its ambient environment and scenic beauty </item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Kalindi_Kunj_Samshan_Ghat_YDEL">
+        <item>28.542403</item>
+        <item>77.312269</item>
+        <item>Amrapali Rd,Madanpur Khadar,New Delhi, Delhi 110076</item>
+        <item>No Description Available</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Madanpur_Khadar_Samshan_Ghat_YDEL">
+        <item>28.542923</item>
+        <item>77.316271</item>
+        <item>Shamshan Ghat, Madanpur Khadar Village, New Delhi, Delhi 110044</item>
+        <item>No Description Available</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Kiran_Chandra_Burning_Ghat_MWB">
+        <item>26.720186</item>
+        <item>88.417904</item>
+        <item>Ward 1, Patiram Jote, Siliguri, West Bengal 734001</item>
+        <item>A very dirty environment. It is known for its modern Crematorium. A Kali temple is located nearby.</item>
+        <item>Bus service available,Nearby Siliguri Junction Station.</item>
+    </string-array>
+    <string-array name="Chinakuri_Shiv_Mandir_Ram_Ghat_DWB">
+        <item>23.679007</item>
+        <item>86.852829</item>
+        <item>Purulia, West Bengal 713333</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Telkupi_Barni_Ghat_DWB">
+        <item>23.649913</item>
+        <item>86.876489</item>
+        <item>Shunuri, West Bengal 723161</item>
+        <item>Situated at Deoli, Madhukunda Purulia is a international religious place of Santhal.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Randiha_Ghat_DWB">
+        <item>23.371063</item>
+        <item>87.477900</item>
+        <item>Beloa, West Bengal 713402</item>
+        <item>An entry point of Panagarh from Sonamukhi. One can cross Damodar river with cycle, motor cycle by motor operated boat.</item>
+        <item>Bus service available</item>
+    </string-array>
+    <string-array name="Bhagloi_Nadi_Ghat_DWB">
+        <item>23.326720</item>
+        <item>87.500796</item>
+        <item>Palshura, West Bengal 722207</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Babla_Tola_Ghat_DWB">
+        <item>23.297277</item>
+        <item>87.562162</item>
+        <item>Badh Road, Shillaghat, West Bengal 713403</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Bali_Ghat_DWB">
+        <item>23.258675</item>
+        <item>87.597827</item>
+        <item>Purangan, Panch Para, West Bengal 713428</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Balamhat_Bali_Ghat_DWB">
+        <item>23.223007</item>
+        <item>87.828765</item>
+        <item>Fakirpur, West Bengal 713101</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Srirampur_Ghat_DWB">
+        <item>23.206577</item>
+        <item>87.883474</item>
+        <item>Hatsimul, West Bengal 713103</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Jiara_Ghat_DWB">
+        <item>22.915778</item>
+        <item>87.978569</item>
+        <item>Jiara ghat, Jiara, West Bengal 712410</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Khaya_Ghat_DWB">
+        <item>22.596794</item>
+        <item>87.982250</item>
+        <item>Mainan, West Bengal 711401</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Dishergarh_Sashan_Ghat_DWB">
+        <item>23.686276</item>
+        <item>86.822020</item>
+        <item>Damodar River</item>
+        <item>Beside Bajrangbali Temple.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Kalajharia_Burning_Ghat_DWB">
+        <item>23.631257</item>
+        <item>86.960560</item>
+        <item>Anandapur, West Bengal 713339</item>
+        <item>Electric Chulli Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Nimtala_Sashan_Ghat_DWB">
+        <item>23.041683</item>
+        <item>87.982178</item>
+        <item>Jamalpur, West Bengal 713408</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Kanaria_Samsan_Ghat_DWB">
+        <item>22.892601</item>
+        <item>87.957968</item>
+        <item>Tarakeswar-Kanraria-Panchanantala Rd, Kanaria, West Bengal 712410</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Shilampur_Ferry_Ghat_DWB">
+        <item>23.413877</item>
+        <item>87.431540</item>
+        <item>Dihipara, West Bengal 713169</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Randiha_Ferry_Ghat_DWB">
+        <item>23.371490</item>
+        <item>87.480437</item>
+        <item>Panagarh, West Bengal 713402</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Hijalna_Ferry_Ghat_DWB">
+        <item>23.195462</item>
+        <item>87.912537</item>
+        <item>Kanthalgachhi, West Bengal 713103</item>
+        <item>Ferry service for people and Bikes only. Cost is 10 Rupees per head only.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Barsul_Ferry_Ghat_DWB">
+        <item>23.174468</item>
+        <item>87.961483</item>
+        <item>Barsul, West Bengal 713124</item>
+        <item>Ferry service is available in monsoon only. In other seasons, a bamboo bridge is built across the river connecting Shumbhupur Ferry Ghat.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Shumbhupur_Ferry_Ghat_DWB">
+        <item>23.168474</item>
+        <item>87.959509</item>
+        <item>Chak Shanjadi, West Bengal 713408</item>
+        <item>Ferry service is available in monsoon only. In other seasons, a bamboo bridge is built across the river connecting Barsul Ferry Ghat.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Jamudaha_Ferry_Ghat_DWB">
+        <item>23.158209</item>
+        <item>87.989426</item>
+        <item>Jamudaha, Chakshanjadi, Near Chakkrishnapur F.P. School, Burdwan</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Joyt_Chand_Ferry_Ghat_DWB">
+        <item>23.158209</item>
+        <item>87.989426</item>
+        <item>Jyotchand Primary School, Paikpara, West Bengal 713404</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Amarpur_Ferry_Ghat_DWB">
+        <item>22.976790</item>
+        <item>87.977494</item>
+        <item>Near Amarpur BA Instution, Amarpur School Rd, Amarpur, West Bengal 712410</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Kali_Tola_Ferry_Ghat_DWB">
+        <item>22.934297</item>
+        <item>87.976095</item>
+        <item>Kalikapur - Bhangamora Rd, Paschim Kalikapur, West Bengal 712410</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Anchal_Ferry_Ghat_DWB">
+        <item>22.926388</item>
+        <item>87.978065</item>
+        <item>West Bengal 712410</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Dehibhursut_Jhanda_Ferry_Ghat_DWB">
+        <item>22.777603</item>
+        <item>87.987651</item>
+        <item>Dihibhursut, West Bengal 712412</item>
+        <item>24hrs in the dry season. Ferry service till 10 pm during monsoon season. During monsoon season, the bamboo-made bridge is replaced by boat service.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Nowpara_Ferry_Ghat_DWB">
+        <item>22.559505</item>
+        <item>87.989648</item>
+        <item>Ranapara Damodar Rd, Nawapara, West Bengal 711401</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Purba_Bainan_Ferry_Ghat_DWB">
+        <item>22.501030</item>
+        <item>87.959652</item>
+        <item>Purba Bainan - Shastitala Rd, Bagnan, West Bengal 711303</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Kulitapara_Ferry_Ghat_DWB">
+        <item>22.447646</item>
+        <item>88.005190</item>
+        <item>Howrah, West Bengal 711303</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Boalia_Ferry_Ghat_DWB">
+        <item>22.396478</item>
+        <item>88.045010</item>
+        <item>Barberia, Sundarpur, Uluberia, West Bengal 711316</item>
+        <item>Nearest railway station is Birshibpur , approx 39min by bus or auto.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Madhabpur_Ferry_Ghat_DWB">
+        <item>22.359515</item>
+        <item>88.060336</item>
+        <item>Local Rd, Howrah, West Bengal 711315</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Garchumuk_Ferry_Ghat_DWB">
+        <item>22.349102</item>
+        <item>88.087979</item>
+        <item>Chandipur, West Bengal 711315</item>
+        <item>No Description Available.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Nishadraj_Ghat_GUP">
+        <item>25.322298</item>
+        <item>83.028875</item>
+        <item>Ghats of varanasi, Ghasi Tola, Varanasi, Uttar Pradesh 221001</item>
+        <item>The presence of sailors on the banks of the river is also associated with the culture of the river. They have a different culture on the waves of rivers. The role of Nishad Raj Guhaya in the story of crossing the Ganges to Lord Rama in the Treta Yuga and a unique example of his devotion, faith and devotion are still given today. The Nishad Ghat built on the banks of the Ganges, dedicated to the same society in Kashi, is also known as the Nishad Raj Ghat.
+Before the year 1980, it used to be the uncovered raw part of Prahlad Ghat. Which in 1988, with the cooperation of the state government, the irrigation department gave a separate identity by constructing concrete. Due to the abundance of Nishad Mallah people in the Ghat area, it got its name as Nishad Raj Ghat. However the number of temples on the banks of the ghat is almost negligible. Although presently the ghat remains fixed, the devotees and local people visiting this ghat also take bath at Prahlada Ghat, which is known earlier. Although people also clean clothes etc. at this ghat. But due to the existence associated with Prahlad Ghat, it gets the same value. Also, this ghat is also included in various events related to Ganga.
+Earlier it changed into a part of Prabhu Ghat till first half 20th century. Now a massive quantity of boatmen with their small boat and nets can be seen listen. Ghat has one Nishad raj Temple which in truth become constructed by way of boatmen families just a few year again. This Ghat has been built by the Municipal Corporation. Varanasi in the Ganges financial institution made numerous stunning ferries, those ferries are related in a few legendary or spiritual narrative.
+
+Devotees are taking bathtub within the early morning to be unfastened from all the sins and prepare themselves for the Pooja. Sailor is pulling his boat to carry it on the financial institution that allows you to take pilgrims from one bank to the other. Pilgrims within the orange get dressed are taking their breakfast after the bathtub at the Gange ghat with a purpose to use their full day for seeing the attractive scenes. Some of them are taking tub and some of them are carrying cloth.
+</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Raj_Ghat_GUP">
+        <item>25.323187</item>
+        <item>83.030504</item>
+        <item>Rabindranath Tagore Rd, Near Sant Ravidas Mandir, Ghats of varanasi, Ghasi Tola, Varanasi, Uttar Pradesh 221001</item>
+        <item>This Ghat is one of the least commercialised ghats.... mostly used by local people for daily chores...good place to sit and relax.
+Situated near to Kashi railway station, this is one of the famous ghats of Varanasi. This is next to Raj Ghat bridge. Famous Ravidas temple is located on this ghat. It is also famous for pind daan and asthi-visarjan. Famous priests of Kashi are based here. The ghats can easily be accessed through any kind of vehicles and parking facilities are also available here. This ghat is also friendly for disabled people who can not walk through narrow lanes of Kashi. They can easily reach here by car or bike.
+The ghat was transformed with levelling and some built structure by means of Rajirao Balaji in ca 1720. This changed into rebuilt with stone slabs by way of Amrit Rao Peshva for the duration of 1780-1807, who changed into living in Banaras as exiled via the British government. Amrit Rao has also constructed the four temples of Amriteshvara,  Vinayakeshvara, Narayaneshvara and Gangeshvara, and four auxiliary shrines, and additionally renovated the Prabhasha Tirtha in 1780.
+Earlier the ghat turned into called Amritarao Ghat as referred via James Prinsep and Edwin Greeves, however this turned into described below the call of “Raja Ghat” by way of Motichand. The northern aspect is the palace, and the southern element is the Annapurna Math. These sections are divided via the stairway. Till 1980 there was a culture to feed Brahmins, Sanskrit college students, ascetics, etc.
+But whilst the Intach commenced its programme and the Clarks Hotel took initiated to use it for promoting a special group of tourists, the earlier traditions vanished. In 1965 the Government of Uttar Pradesh has renovated this ghat and built the stairs made of purple stones. At the principle front location, a refectory is constructed that completely reserved for the Brahmins.
+</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Rani_Ghat_GUP">
+        <item>25.322770</item>
+        <item>83.030003</item>
+        <item>Ghasi Tola, Varanasi, Uttar Pradesh 221001</item>
+        <item>Well maintained and well decorated ghat. Ferries are available for a ride across river Ganga. Well maintained sitting arrangement and bathing arrangement for tourist. The place is well connected with main road but vehicles is not permitted as connecting roads with main road is too narrow.
+The matter is in the year 1988 when the irrigation department in collaboration with the state government built another Ganga Ghat. Earlier this ghat was raw and used to be a part of Rajghat itself. Even earlier, in 1937, a huge building named Janaki Kunj was built on top of the ghat by Rani Muniya Sahiba of Itauja, Lucknow. After which this ghat became known as Rani Ghat. At present the ghat is firm but due to lack of special religious importance, the bathing work here is relatively less than all other ghats. Therefore, there is a large gathering of cloth cleaners at the ghat. However, the order of special and other events related to Ganga at the Ghat continues.
+</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Telianala_Ghat_GUP">
+        <item>25.320658</item>
+        <item>83.026276</item>
+        <item>Ghats of varanasi, Ghasi Tola, Domari, Uttar Pradesh 221001</item>
+        <item>No Description Available.</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Sakka_Ghat_GUP">
+        <item>25.320461</item>
+        <item>83.025836 </item>
+        <item>A3/119, Trilochan Bazar, Ghats of varanasi, Ghasi Tola, Domari, Uttar Pradesh 221001</item>
+        <item>The correct name was Shuka Ghat but by the time of disrespect, it became Sakka Ghat. In 1988, with the cooperation of the state government, the irrigation department built a concrete building on the ghat, which gave it an important charm and identity. The Ghats are mentioned by James the British historian James Prinsep in a citation in 1822. While Wax, who was almost his contemporary, discussed it in the year 1868 as Babu Suka Ghat. However, in the midst of all these naming discrepancies, it is popular today among the locals as Sakka Ghat. Sant Hardas Ram Sevashram is located in the upper part of the Ghat. Bal Chandreshwar Shiva temple is in its premises. At present, the ghats are firm, but due to the cleaning of the cloth by the dhobis, the arrival of the devotees and devotees to this ghat is also less. But all the major events related to Ganga are also held at this ghat.</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Trilochan_Ghat_GUP">
+        <item>25.319050</item>
+        <item>83.023450</item>
+        <item>Near Gaay Ghat, Maidagin, Ghats Of Varanasi, Varanasi, Uttar Pradesh 221001</item>
+        <item>One of the decent ghat on the eastern side, lanes above the ghat gives great exposure for street photographers, also there is a vyamsala (gym) right at the ghat upstairs, do check it out and walk through very narrow lanes typical banaras type. Wrestlers may give some nice portraiture.
+In 1740, Narayan Dixit built a ghatka with the help of Peshwas. Since the Trilochan Mahadev Temple is located in the Ghat area, it has since been called Trilochan Ghat. According to Kashikhand, this temple is dedicated to the third eye of Shiva. According to local Brahmins and priests, the rivers Narmada and Pippila meet in an invisible form in the Ganges on this coast. These three rivers are similar to the three eyes of Shiva, hence the Ghat is named Trilochan Ghat. This ghat is one of the best pilgrimages of Kashi, which is mentioned from the time of Gahadwal. The Trilochan temple at the Ghat was destroyed during time of Aurangzeb. Which was built by Nathubala Peshwa of Poona in the eighteenth century. This temple was rebuilt by Ramadevi in 1965. Was built. Trilochan Mahadev is the principal deity of the Omkareshwar shrine of Kashi. The pilgrims who visit Omkareshwar begin their journey at the Ghat only after bathing and worshiping Trilochan Mahadev. The position of Pippila and Trivishtapa shrine in the Ganges in front of the ghat has been considered. Vaishakh Shukla Tritiya or Akshaya Tritiya is the annual decoration of Trilochan Mahadev. On this occasion, people take a darshan of Trilochan Shiva after bathing at the ghat and religious-cultural activities like bhajan-kirtan, satsang etc. are organized at the ghat. In addition to the Trilochan temple, Panchakshwar Shiva, Kotishwar Shiva, Uddandmund Vinayak, The temple of Yamuneshwar Shiva etc. is established. Arunaditya Surya is worshiped in the Dwadash Adityas of Kashi. The steps of this ghat are also built in classical legislation. The garrison has been constructed after twelve steps. These twelve steps are considered as the symbol of Shiva. Presently the ghat is clean and clean. Bathing at the ghat is of special importance in the month of Vaishakh. Due to religious significance, local bathing as well as outdoor bathing are also visited here. In the year 1965, the state government had repaired the ghat; in the east the southern part of the ghat was raw, which was newly constructed in 1988 by the Irrigation Department in collaboration with the state government.
+</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Gaay_Ghat_GUP">
+        <item>25.318468</item>
+        <item>83.022140</item>
+        <item>Maidagin, Near Trilochar Ghat, Ghasi Tola, Varanasi, Uttar Pradesh 221001</item>
+        <item>Good neat and clean Washroom is also available there. Changing rooms are available but they are dirty and not in condition for use so there is problem of changing room for ladies.
+In the nineteenth century the southern part of the Ghat was built by Naresh Rana Shamsher Bahadur of Nepal and the northern part was built by Balabai Shitole, wife of Diwan Malavji Narasimha Rao Shitole of Gwalior Dynasty. It is believed that bathing at the ghat provides freedom from the sin of killing cow. For this reason, the ghat was named Cow Ghat. Whereas the local people believe that in ancient times people from the neighboring region used to visit this ghat to feed and bathe the cows. Probably because of this it is named. The authenticity of the Ghat related photographs obtained from Sawai Mansingh II Museum also proves its authenticity. According to Lingpuran and Kashikhand, the position of Gopraksh Tirtha in front of the Ghat has been considered. After bathing in a pilgrimage, there is a special significance for the worship of Mukhirmirmalika Gauri. Mukha Nirmalika Gauri occupies a prominent position among the newcomers of Kashi. Hanuman, in addition to Mukha Nirmalika Gauri, Shitala, Laxminarayan, Shiva Temple, Dalmia Bhawan is established in the ghat area. The huge palace built by the King of Nepal in the southern part of the ghat was occupied by industrialist Dalmia in 1940. Mother of Dalmia, Kashi used to live in this palace. This palace is currently known as Dalmia Bhavan. In the northern part, there are tenants now living in the huge building built by Balabai Shitole. There are many Shiva lingas on the steps of the ghat and the statue of Nandi seated made of stone is also about three feet high. Many religious-cultural events are organized at the Ghat, including the Mundan rites, marriage, Ganga Pujaiya pindadan and bhajan-kirtan, music, organized on the annual makeup of temples. Ramlila held during the month of Kartik is special. At present, the ghat is clean and strong, the daily ghat comes to the ghat as well as those who bathe at a special festival. According to the local people, people come from far and wide to come here and perform bathing, worship and rituals at the ghat to get rid of cow-killing sins. In 1965 the ghat was repaired by the state government.
+</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Sheetala_Ghat_GUP">
+        <item>25.317081</item>
+        <item>83.020312</item>
+        <item>Beside Ganga River, near Bundi Parkota Ghat, Varanasi, Uttar Pradesh 221001</item>
+        <item>Famous for Big sheetla temple here nearest Dashaswamedh ghat both are parallel to the straight lines of the banking of Ganga river such that devoties come here to see the Ganga Arti and worship to mata sheetla blessed that who will adandence on the door of mata is peaceful goddess in forms of Durga. She worshipped every apart of India has full devotion of Hindu religion belonging only the festival of Navaratri are the major rolled of the many kinds of worship presented to see here. Never traveled here very excited with Basant and sarad Navaratricelebrated with more amazing performance.
+Even today, the locals consider it part of Dashashwamedhghat. It is believed that in the beginning of the eighteenth century, Queen Ahilyabai Holkar of the princely state of Indore of Madhya Pradesh reconstructed the ghat and in its form, made many works for the convenience of the devotees, which made it very convenient for those coming from far flung places. Earlier this part used to come under Dashashwamedh Ghat. But a few years after the construction of the Ghat, the Shitala Mata Temple was established here. Whose name was later changed to Sheetla Ghat, which is still known by that name.
+The Shitala temple holds special recognition because of its architecture. In Chaitra and Shardiya Navratri, there is a crowd of believers here, people pray for charity by bathing and donating at the ghat itself. Although there is a crowd of people throughout the year, but there is a large crowd in religious events, especially at the ghat.
+The ghat itself is believed to carry out various rites associated with various Hindu religions. Devdeepavali and Ganga Dussehra along with other major events also take place at the ghat. The process of visiting tourists and pilgrims from all over the country goes on throughout the year. The state government also constructed here after independence in order to protect the ghats. However, construction has been done from time to time to give the Ghat a grand appearance. The order of people coming to the ghat on beliefs remains the same throughout the year, but the sequence of various religious rituals related to Sheetla Ashtami and Mata Sheetla continues throughout the year.
+</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Bundi_Parkota_Ghat_GUP">
+        <item>25.316227</item>
+        <item>83.019459</item>
+        <item>Beside Ganga River, Near Panchganga Ghat, Maidagin, Ghasi Tola, Varanasi, Uttar Pradesh 221001</item>
+        <item>At the end of the sixteenth century, Bundi, Rajasthan, Maharaja Rao Surjan built a huge palace situated on the ghat and ghat. According to Girvan Padmanjari, the ancient name of the Ghat was Adi Visheshwar Ghat. In the middle of the palace situated in the Ghat is the temple of Vishveshwar Shiva, due to which the name of the Ghat was named as Adi Vishveshwar Ghat. Formerly it extended to the present Shitalaghat II. In the nineteenth century, Raja Rao Pritam Singh of Bundi rebuilt the Shitla Ghat II in the nineteenth century, after which the ghat was divided into Pritam Singh and Sheetla Ghats respectively. After the repair of both the ghats by the state government in 1958, Pritam Singh Ghat was renamed to Bundi Parkota Ghat after belonging to Bundi kings. Apart from Adi Vishweshwar, Annapurna, Seshamadhav, Vishnu and Karnaditya Surya, The temple is established in the form of Aditya. The position of the Karnaditya shrine in the Ganges in front of the Ghat has been considered. Although the ghat is sure, one has to go through the steps of Sheetla Ghat to reach Gangahat. Therefore, the local people do not bathe on this ghat and do bathing work on the Sheetla Ghat itself, but the remains of artistic pillars and carvings of the palace can still be seen. Whereas all the major religious events related to Ganga are also organized at this ghat.</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Brahma_Ghat_GUP">
+        <item>25.31774</item>
+        <item>83.018972</item>
+        <item>Maidagin Crossing, near Panchganga Ghat, Ghats of varanasi, VNS, Varanasi, Uttar Pradesh 221001</item>
+        <item>In the year 1740, Narayan Dixit built this ghat along with Durgaghat. The Ghat is first mentioned in Givarna Padmanjari. There is a legend about the naming of the Ghat that when Brahma Ji arrived in Kashi on the orders of Shiva, Brahma Ji made this Ghat his place of residence. That is why this ghat came to be called Brahmaghat. The relation of Brahma and Kashi is also mentioned in the Matyasya Purana. The Brahma temple on the ghat dates back to the 13th century. The statue of Brahma is installed here and the Brahmeshwar Shiva temple is located. Bindu Madhav, inside the Sri Kashi Math Institute located on the Ghat itself Dattatreya and Laxmi Narsingh Temple are established. The position of Bhairav shrine in the Ganges in front of the ghat has been considered. Different steps for going from Gangahat to Brahmeshwar Shiva temple and Brahma temple are built according to classical legislation. After five steps to reach Brahmeshwar Shiva, the outpost has been constructed, which is the symbol of Panchayatan Shiva. At the same time, after the four steps up to the Brahma temple, the outpost has been constructed, which can be considered a symbol of the quadriplegic Brahma. According to beliefs, Adi Shakracharya used to reside in Shri Kashimath Institute on the arrival of Kashi. Chaturmas ritual is organized by Kachikotti Shakaracharya at this ghat every year. Presently the ghats are clean and strong. Local people do bathing work here. The Ghat was rebuilt by the state government in 1958. </item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Panchganga_Ghat_GUP">
+        <item>25.315102</item>
+        <item>83.018246</item>
+        <item>7/111, Sonarpura Rd, Ghats of varanasi, Bangali Tola, Varanasi, Uttar Pradesh 221001</item>
+        <item>At a distance of 1.5 km from Manikarnika Ghat and 7 km from Varanasi Junction, Panchganga Ghat is another popular ghat along the banks of River Ganga in Varanasi, Uttar Pradesh. It is one of the cleanest ghats in Varanasi and among the popular Varanasi Tourist Places.
+
+Panchganga Ghat is called so because it is built at the confluence of five holy rivers - Ganga, Saraswati, Dhupapapa, Yamuna and Kirana. Out of these five only Ganga remains visible while the other four are believed to have disappeared in earth. There are five black stone idols residing here for the five river goddesses. Many devotees throng to this ghat in hopes of attaining blessings from these five goddesses.
+
+This ghat has lot of history. It is believed that Panchganga Ghat is also served as a teaching place for Vaidant Ramanand, the Guru of great saint Kabir. Further, it is also believed that the saint poet Tulsi Das composed the famous Vinay-Patrika here at this ghat.
+
+This ghat is popular for Alamgir Mosque which is believed to have been constructed by Aurangzeb. Also known as Beni Madhav-ka-Darera, the mosque is believed to be constructed on the site of Bindu Madhava Temple erected by the Maratha chieftain Beni Madhav Rao Scindia in the 17th century AD. The temple was destroyed and the Mosque was constructed at that place during Mughal invasion in India. This imposing Hindu and Persian architectural structure, designed with carved pillars, turrets and marvelous domes, showcase the rich artworks of ancient India.
+As the name suggests, Panchganga Ghat is the place where five sacred rivers converge to form an overwhelming spectacle of beauty and holiness. The five holy rivers are the Ganges, Saraswati, Yamuna, Kirana and Dhupapapa. The Panchganga Ghat stands as an example of Hindu-Muslim harmony. The Mosque of Alamgir, also known as Beni Madhav-ka-Darera, stands tall near the ghat on a site where it is believed stood the Bindu Madhava Temple.
+</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Jatar_Ghat_GUP">
+        <item>25.314591</item>
+        <item>83.017111</item>
+        <item>Ghats of varanasi, Ram Ghat, Ghasi Tola, Varanasi, Uttar Pradesh 221001</item>
+        <item>Jatar Ghat is adjacent to the Panchganga Ghat in the vibrant city of Benares. While the kings constructed the pucca construction on the ghats, the competition for pucca construction on the ghat has been equal in their courts. Balaji Jatar, considered the Diwan of King Jeevaji Rao, was built in the early nineteenth century of Gwalior in the order of the Ghats by identification and identification with the Ghats. His identity became permanent as Jatar Ghat. The British historian James Prinsep in Varanasi has also mentioned in the history sequence in the introduction of the Ghats of Kashi. Near Balaji Ghat close to Ghat There is an ancient temple of Laxminarayan. Which is considered to be a unique example of glass art of its own way. Some major pilgrimage is recognized near this ghat on the banks of Ganges, although it is not more authentic. But on the basis of recognition, the order of people coming and worshiping remains. Earlier the Ghat was quite neglected, but after administrative assistance, the Ghat was recognized after the renovation in the eighties and the procession of devotees started here. There is not much recognition of the ghat but in all the major events related to the Ganges, this ghat is also buzzing. In the eighties, the ghat got recognition after renovation and the order of devotees started here. There is not much recognition of the ghat but in all the major events related to the Ganges, this ghat is also buzzing. In the eighties, the ghat got recognition after renovation and the order of devotees started here. There is not much recognition of the ghat but in all the major events related to the Ganges, this ghat is also buzzing.</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Ram_Ghat_GUP">
+        <item>25.314413</item>
+        <item>83.016814</item>
+        <item>Mehta Hospital, Ram Ghat, Varanasi, Uttar Pradesh 221001</item>
+        <item>No Description Available.</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Mehta_Ghat_GUP">
+        <item>25.314047</item>
+        <item>83.016631</item>
+        <item>Gola Gali, Ram Ghat, Ghasi Tola, Varanasi, Uttar Pradesh 221001</item>
+        <item>No Description Available.</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Naya_Ghat_GUP">
+        <item>25.313156</item>
+        <item>83.016303</item>
+        <item>Ghats of varanasi, Ghasi Tola, Varanasi, Uttar Pradesh 221001</item>
+        <item>This become and vintage web site of Yajnesvara Ghat and became made pucca by using Swami Maheshwarananda in mid nineteenth century. In the closeby stream lies the Visala Gaja Tirtha. Phuta Ghat is one a number of the numerous ghats at the banks of Ganges at Varanasi. It become in the beginning called Yajneshvara Ghat. Phuta Ghat was renovated and rebuilt by a respected person named Swami Maheshvarananda in mid-19th century. Therefore the ghat is also referred to as Naya Ghat, in which the phrase ‘naya’ approach ‘new.’
+Ghats in Varanasi are riverfront steps leading to the banks of the River Ganges. Most of the ghats are bathing and puja ceremony ghats, even as  ghats are used completely as cremation websites. The set of stairs lead all the way down to some thing as small as a pond or as big as a chief river. The time period ghat refers to a sequence of steps leading right down to a frame of water, mainly a holy river.
+</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Bhonsale_Ghat_GUP">
+        <item>25.312896</item>
+        <item>83.016120</item>
+        <item>Near Ganga Mahal Gate, Ghats of varanasi, Ghasi Tola, Varanasi, Uttar Pradesh 221001</item>
+        <item>In 1780, Maratha king Bhonsale of Nagpur made this ghat and as a result named after him. Two crucial shrines nearby Bhonsale Ghat are Yameshwara temple and Yamaditya temple. This ghat is another instance of contributions of Maratha rulers to the very lifeline of Varanasi. One of critical ghats at the Ganges River in Varanasi, was constructed via the Maratha ruling family of Nagpur. Since the Maratha rulers of Nagpur belonged to the Bhonsle Family, the ghat got here to be called Bhonsala Ghat.
+
+The ghat changed into repaired and renovated in 1795. Lakshminarayan Temple, Yameshwar Temple and Yamaditya Temple are the primary shrines on this ghat. The different looking Bhosale Ghat become constructed by means of the Maratha ruling circle of relatives of Nagpur, who belonged to the Bhosale family. It is a sizeable stone constructing with small creative home windows at the top. The term ghat refers to a series of steps main down to a body of water, especially a holy river.
+</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Ganga_Mahal_Ghat_GUP">
+        <item>25.312724</item>
+        <item>83.015925</item>
+        <item>Near Antique, Ghats of varanasi, Ghasi Tola, Varanasi, Uttar Pradesh 221001</item>
+        <item>Ganga Mahal Ghat is named after a palation building of ex. Maharaja of Banaras to wards the north cease of Assi Ghat. Infact Ghat has a little cultural significance besides the Beautiful carvings depiction the Rajput and nearby architectural grandeur of 16th century. Ganga Mahal Ghat is one of the principal ghats at the Ganges River in Varanasi. Constructed in 1830 CE through the Narayan dynasty, the ghat is north of Assi Ghat and turned into at first constructed as an extension to Assi Ghat.
+
+The Narayan dynasty, in 1830, built a palace via the river Ganga in Varanasi. The palace become referred to as "Ganga Mahal". Since the Mahal become housed on the ghat, the ghat was named "Ganga Mahal Ghat". Stone steps between Assi Ghat and Ganga Mahal Ghat separates the 2 ghats. This palace homes the layout studio of Hemang Agrawal while the higher flooring are utilized by the "Indo-Swedish Study Centre" organised by way of Karlstad University.
+</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.It is 6 kilometers south-east of Varanasi Junction railway station</item>
+    </string-array>
+    <string-array name="Sankatha_Ghat_GUP">
+        <item>25.312465</item>
+        <item>83.015684</item>
+        <item>Assi Ghat Rd, Near Assi Ghat, Ghasi Tola, Varanasi, Uttar Pradesh 221010</item>
+        <item>Really great place to visit, and has a nice vibe too. definitely take a boat tour to the other side of the bank and watch the evening aarti from the boat itself.</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Adarsh_Ghat_GBH">
+        <item>25.607021</item>
+        <item>85.216713</item>
+        <item>Address - Sadikpur, Patna, Bihar 800008</item>
+        <item>Saree Ghat, Sita Ghat, Nearby Market - Khajekalan Sabji Mandi</item>
+        <item>Nearby Railway Station - Gaighat Bus stand, Guljarbagh Railway Station. Transportation - Taxi Service, Bus service</item>
+    </string-array>
+    <string-array name="Aguani_Ghat_GBH">
+        <item>25.262514</item>
+        <item>86.740448</item>
+        <item>Temyha Arazaia Patpar, Bihar 851203  </item>
+        <item>Very busy area, good looking place. Very Helpful Bridge, for Crossing GANGA River From Khagaria To Bhagalpur Munger. Good place for hangout and Also Ganga bath.Bridge is under construction. Nearby Ghat - Sultangaung Ghat</item>
+        <item>Nearby Railway Station - Sultanganj Railway Station, Transportation - Auto Service</item>
+    </string-array>
+    <string-array name="Babupur_Ganga_Ghat_GBH">
+        <item>25.251344</item>
+        <item>87.056628</item>
+        <item>Bihar 813210</item>
+        <item>Taking bath is allowed. This is also known as chat puja ghat. There is durga temple and Kali Temple near Babupur ghat.</item>
+        <item>Bus service available.</item>
+    </string-array>
+    <string-array name="Bengali_Baba_Ghat_GBH">
+        <item>25.732762</item>
+        <item>84.824297</item>
+        <item>Doriganj Road, Chirand, Bihar 841211</item>
+        <item>Best place for chhat puja.The ghat have a beautiful scenary.you will get huge people gathering on various religious occasions. many sewage are flows in the river. Nearby Ghats: Krishna Ghat, Nearby Market: Jai bhole alu market, Sabzi Market.</item>
+        <item>Nearby Railway Station - Golden Gaunj Railway station, Transportation - Walking distance from Cirand Bus Stand</item>
+    </string-array>
+    <string-array name="Bhadra_Ghat_GBH">
+        <item>25.611836</item>
+        <item>85.207267</item>
+        <item>Sadikpur, Patna, Bihar 800007</item>
+        <item>A religious place too for Hindu religion people. People generally come here to have bath in holy Ganga. Scenic beauty is awesome. Nice view of mathma Gandhi setu bridge. Nearby Ghats: Mahabir Ghat, Nearby Market:Meena Market Sabji Baazar, Radhika Market</item>
+        <item>Nearby Railway Station - Gulzarbagh Railway Station</item>
+    </string-array>
+    <string-array name="Digha_Ghat_GBH">
+        <item>25.654245</item>
+        <item>85.086344</item>
+        <item>Digha, Patlipul, Yadav Colony, Patna, Bihar 800011</item>
+        <item>Nearby Market - Gandhi Market, Radhy Shyam Market</item>
+        <item>Nearby Railway Station - Digha ghat Railway station, Transportation - Bus service, Taxi service.</item>
+    </string-array>
+    <string-array name="Duli_Ghat_GBH">
+        <item>25.607551</item>
+        <item>85.215440</item>
+        <item>Adarsh colony, Duli Ghat, Diwan Mohalla, Sadikpur, Patna, Bihar 800008</item>
+        <item>Nearby Ghats - Adarsh Ghat, Seree Ghat, Nearby Market - Meena Bazar market, Radhika Market, Gupta Market. Not clean. Although very nice scenery but one cannot enjoy due to litters and unhygienic surrounding. You can find a very pleasant crowd at the time of chat puja mostly.</item>
+        <item>Nearby Railway Station - Gulzarbagh Railway station. Transportation - Bus Service, Taxi Service, Boat Service</item>
+    </string-array>
+    <string-array name="Gai_Ghat_DWB">
+        <item>25.613720</item>
+        <item>85.203240</item>
+        <item>Sadikpur, Patna, Bihar 800007</item>
+        <item>Gai Ghat (Developing As a port and amazing tourist place among Patna). The water is clean and wavy. A must visiting place. Perfect for photography. Nearby Ghats - Raja Ghat, Nearby Market - Sabji Market, Heena Market, Palika Bazar </item>
+        <item>Ferry service - IWAI terminal, Nearby Railway Station - Gulzarbagh Railway station, Suvidha Junction, Transportation - Bus service, Taxi service</item>
+    </string-array>
+    <string-array name="Gandhi_Ghat_GBH">
+        <item>25.613720</item>
+        <item>85.203240</item>
+        <item>Patna, Bihar 800005</item>
+        <item>Nice ,maintained , clean ,pure ,divine and a place which commutes between kalighat to gulbi ghat Morning walks , evening ganga aartis, and dining at bhagirathi restaurant (maybe its closed) are some activities. It is named after the leader of the Indian independence movement Mahatma Gandhi. The ghat is famous for its Evening Ganga Aarti. It is also associated with the immersion of ashes of Mahatma Gandhi in the river Ganges. Nearby Ghats - Krishna Ghat, Nearby Market - Manish Market, Chowdhury Market</item>
+        <item>Ferry service - Gandhi Ghat Ferry Terminal, Nearby Railway Station - Patna Junction Railway station, Transportation - Bus Service</item>
+    </string-array>
+    <string-array name="Jahanvi_Ganga_Brahmbaba_Ghat_GBH">
+        <item>25.307383</item>
+        <item>87.017874</item>
+        <item>Raghopur, Bihar 853202</item>
+        <item>Nearby Ghats - Mhadeopur ghat, Nearby Market - DP Mandal Market</item>
+        <item>Nearby Railway Station - Naugachia Railway station, Thana Bihpur Junction, Transportation - Bus service</item>
+    </string-array>
+    <string-array name="Kahalgaon_Ganga_Ghat_GBH">
+        <item>25.265832</item>
+        <item>87.226048</item>
+        <item>Station road, Kahalgaon, Bihar 813203</item>
+        <item>Awesome place In morning and evening its looks so beautiful. Lovely place but little bit polluted. Nearby Ghats - Tintanga Ferry Ghat, Nearby Market - Khetan Market, SKB Market</item>
+        <item>Nearby Railway Station - Kahalgoan railway station, Transportation - Bus service, Taxi service, Two wheeler parking spot</item>
+    </string-array>
+    <string-array name="Khajekalan_Ghat_GBH">
+        <item>25.604498</item>
+        <item>85.223381</item>
+        <item>Khajekalan, Sadikpur, Patna City, Bihar 800008</item>
+        <item>A main Ghat for Agni sanskar for the peaple of patna city. There are not stairs but their are sacks laid there. Nearby Ghats - Saree ghat, Tedhi ghat. Nearby Market - Khajekalan Sabji bazar</item>
+        <item>Nearby Railway Station - Patna Saheb Railway station, Rajendranagar terminal. Transportation - Boat service.</item>
+    </string-array>
+    <string-array name="Mahavir_Ghat_GBH">
+        <item>25.610759</item>
+        <item>85.208913</item>
+        <item>Sadikpur, Patna, Bihar 800008</item>
+        <item>Public toilet is also available here. Nearby Market - Sabji Market, Fruit Market. Nearby Ghats - Bhadra Ghat</item>
+        <item>Nearby Railway Station - Patna Saheb, Rajendranagar Terminal	</item>
+    </string-array>
+    <string-array name="Manihari_Ghat_GBH">
+        <item>25.334753</item>
+        <item>87.617651</item>
+        <item>Katihar, Bihar 854113</item>
+        <item>Ganga Ghat is one of the iconic places of Manihari subdivision. Their importance is also increased from social, religious and business point of view. In the month of Maghi Purnima and Sawan, lakhs of devotees come to bathe from different parts of the country and take Ganga water. From the business point of view, here Gitti, sand and stone are imported from Sahebgaunj district of Jharkhand and many other places, which are exported to many parts of Bihar and India. Nearby Market: Manihari Market</item>
+        <item>Nearby Railway Station: Katihar Junction. Transportation: Launch service. Ferry service: Manihari ghat Launch Stop</item>
+    </string-array>
+    <string-array name="Mokama_Ghat_GBH">
+        <item>25.401703</item>
+        <item>85.916290</item>
+        <item>Mokama, Mokameh Khas, Bihar 803302</item>
+        <item>Mokama Ghat is situated about four kilometres east of Mokama on the bank of the river Ganga in Bihar, India. Nearby Market - Shahi Market</item>
+        <item>Nearby Railway Station: Mokama Junction. Transportation: Boat available</item>
+    </string-array>
+    <string-array name="Rasulpur_Ganga_Ghat_GBH">
+        <item>25.756707</item>
+        <item>85.097701</item>
+        <item>Rasulpur, Bihar 841217</item>
+        <item>Nearby Market: Nayagan market</item>
+        <item>Nearby Railway Station: Sodhpur Junction, Dighwara</item>
+    </string-array>
+    <string-array name="Sita_Ghat_GBH">
+        <item>25.605600</item>
+        <item>85.219354</item>
+        <item>Sadikpur, Patna, Bihar 800008</item>
+        <item>Nearby Ghats:  Khajekalan ghat, Duli ghat. Nearby Market: Khajekalan sabji market</item>
+        <item>Ferry service: Pahleza ghat ferry service provider. Nearby Railway Station: Patna Saheb. Transportation:: Bus service, Taxi service</item>
+    </string-array>
+    <string-array name="Sultanganj_Ganga_Ghat_GBH">
+        <item>25.254703</item>
+        <item>86.738444</item>
+        <item>Bathing, Ghat Road, Sultanganj, Bihar 813213</item>
+        <item>Best site of utter bahni GANGA and AJGAVINATH MANDIR. Ajgaivinath Temple is situated on the bank of the ganga river, which is devoted to Lord Shiva. Every year millions of devotees come to this place and take bath in this holy river and worship in that temple. Specially in Shravan Month, devotees takes holy water of Ganga and offer it to Baba Baidhyanath in Deoghar. Nearby Ghats: Kastharini ghat. Nearby Market: Chicken,Mutton and Fish market, Clothing Market</item>
+        <item>Ferry service: Sultan Gaunj to agwani ferry service. Nearby Railway Station: Sultan Gaunj Railway Station. Transportation: Bus service	</item>
+    </string-array>
+    </resources>

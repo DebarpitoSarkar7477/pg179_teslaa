@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#ffffff"
+    tools:context=".DescriptionofGhtas">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/ss1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Ghat Name"
+            android:background="#ffffff"
+            android:layout_below="@+id/image1"
+            android:id="@+id/txx"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/txx"
+            android:background="#ffffff"
+            android:id="@+id/tyy"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Address"
+            android:background="#ffffff"
+            android:layout_below="@+id/tyy"
+            android:id="@+id/tq"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="#ffffff"
+            android:textColor="#008ae6"
+            android:layout_below="@+id/tq"
+            android:id="@+id/t2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Description"
+            android:background="#ffffff"
+            android:layout_below="@+id/t2"
+            android:id="@+id/t3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/t3"
+            android:background="#ffffff"
+            android:id="@+id/t4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Transportation"
+            android:background="#ffffff"
+            android:layout_below="@+id/t4"
+            android:id="@+id/t5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/t5"
+            android:background="#ffffff"
+            android:id="@+id/t6"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_below="@+id/t6"
+            android:text="Next Page"
+            android:id="@+id/b"/>
+
+    </RelativeLayout>
+
+</ScrollView>
+

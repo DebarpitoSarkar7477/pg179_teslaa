@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".Survey">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="SURVEY PORTAL"
+            android:id="@+id/ttt"/>
+        <EditText
+            android:id="@+id/t1"
+            android:layout_below="@+id/ttt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Name" />
+
+        <EditText
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_marginTop="36dp"
+            android:hint="Enter Your Mail"/>
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t2"
+            android:text="Do you feel interested in the Cleaning of River Ganga and its tributaries? "
+            android:layout_marginTop="36dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t3"
+            android:id="@+id/e1"/>
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/e1"
+            android:text=" Do you think the cleaning procedure of the River is correct? If not what measures do you suggest?"
+            android:layout_marginTop="36dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t4"
+            android:id="@+id/e2"/>
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/e2"
+            android:text="What do you think about the National Mission for Clean Ganga Initiative? Do you think that this type of measures should be taken for other rivers as well? If so, name those rivers."
+            android:layout_marginTop="36dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t5"
+            android:id="@+id/e3"/>
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/e3"
+            android:text="Do you think that hosting River bank cleaning public events will be beneficial? Are you interested in attending such events or donating for such events? Keep note that participating in such events can earn you a prize."
+            android:layout_marginTop="36dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t6"
+            android:id="@+id/e4"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b"
+            android:layout_below="@+id/e4"
+            android:layout_centerInParent="true"
+            android:text="SUBMIT"/>
+    </RelativeLayout>
+
+</ScrollView>

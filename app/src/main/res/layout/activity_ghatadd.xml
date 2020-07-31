@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".Ghatadd">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed0"
+            android:hint="Enter Your Name"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed1"
+            android:layout_below="@+id/ed0"
+            android:hint="Enter Your Mail"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed2"
+            android:layout_below="@+id/ed1"
+            android:hint="Enter Ghat Name"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed3"
+            android:layout_below="@+id/ed2"
+            android:hint="Enter Name of River"/>
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed4"
+        android:layout_below="@+id/ed3"
+        android:hint="Enter Address of Ghat"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/ed5"
+            android:layout_below="@+id/ed4"
+            android:hint="Enter Description of Ghat"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/t"
+            android:layout_below="@+id/ed5"
+            android:text="Choose Type of Ghat"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg"
+            android:layout_below="@+id/t">
+         <RadioButton
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Ferry Ghat"
+             android:id="@+id/r1"/>
+         <RadioButton
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Normal ghat"
+             android:id="@+id/r2"/>
+         <RadioButton
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Cremation ghat"
+             android:id="@+id/r3"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State Tourism Ghat"
+                android:id="@+id/r4"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t2"
+            android:text="Is Ghat clean? / Is the Ghat cleaned regularly?"
+            android:layout_below="@+id/rg"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg1"
+            android:layout_below="@+id/t2">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rd3"
+                android:text="YES"
+                android:layout_below="@+id/f2"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rd4"
+                android:text="NO"
+                android:layout_below="@+id/rd3"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rg1"
+            android:text="What is the opening and closing time of this Ghat?"
+            android:id="@+id/t3"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t3"
+            android:id="@+id/ed6"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t4"
+            android:text="Is there proper clean Toilets, dustbins and lighting near the ghat?"
+            android:layout_below="@id/ed6"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg2"
+            android:layout_below="@+id/t4">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rd5"
+                android:text="YES" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rd6"
+                android:text="NO" />
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t5"
+            android:text="Is boating service available here?"
+            android:layout_below="@id/rg2"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg3"
+            android:layout_below="@+id/t5">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rd7"
+                android:text="YES" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rd8"
+                android:text="NO" />
+        </RadioGroup>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Is Sandhya Aarti done here? If yes, whats the timing?"
+             android:layout_below="@+id/rg3"
+             android:id="@+id/t6"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed7"
+            android:layout_below="@+id/t6"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/image1"
+            android:layout_below="@+id/ed7"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image1"
+            android:text="Select Image"
+            android:id="@+id/up1"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/image2"
+            android:layout_below="@+id/up1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image2"
+            android:text="Select Image"
+            android:id="@+id/up2"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/up2"
+            android:id="@+id/b"
+            android:text="Submit"/>
+    </RelativeLayout>
+
+</ScrollView>
