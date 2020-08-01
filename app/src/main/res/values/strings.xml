@@ -95,6 +95,7 @@
         <item>Babupur Ghat</item>
         <item>Bengali Baba Ghat</item>
         <item>Bhadra Ghat</item>
+        <item>Dattatreya Ghat</item>
         <item>Digha Ghat</item>
         <item>Duli Ghat</item>
         <item>Gai Ghat</item>
@@ -102,10 +103,13 @@
         <item>Jahanvi Brahmbaba Ghat</item>
         <item>Kahalgaon Ghat</item>
         <item>Khajekalan Ghat</item>
+        <item>Lalita Ghat</item>
         <item>Mahavir Ghat</item>
         <item>Manihari Ghat</item>
+        <item>Manikarnika Ghat</item>
         <item>Mokama Ghat</item>
         <item>Rasulpur Ghat</item>
+        <item>Scindia Ghat</item>
         <item>Sita Ghat</item>
         <item>Sultanganj Ghat</item>
     </string-array>
@@ -1132,6 +1136,43 @@ The Narayan dynasty, in 1830, built a palace via the river Ganga in Varanasi. Th
         <item>Assi Ghat Rd, Near Assi Ghat, Ghasi Tola, Varanasi, Uttar Pradesh 221010</item>
         <item>Really great place to visit, and has a nice vibe too. definitely take a boat tour to the other side of the bank and watch the evening aarti from the boat itself.</item>
         <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Scindia_Ghat_GBH">
+        <item>25.312148</item>
+        <item>83.015616</item>
+        <item>Dattatreya math, Varanasi, Uttar Pradesh 221001</item>
+        <item>Scindia Ghat is quite a picturesque and peaceful place, with none of the grimness of nearby Manikarnika Ghat (the burning ghat). Of particular interest is the partially submerged Shiva temple at the water edge. It sunk during the construction of the ghat in 1830. The narrow maze of alleyways above the ghat hides a number of Varanasi important temples. This area is called Siddha Kshetra and it attracts plenty of pilgrims
+It is one of the ghats in Varanasi and borders Manikarnika ghat a place of Hindu cremation, to the north. At this ghat, a tilted temple can be found lying partially submerged in the Ganga river and it is argued that this ghat collapsed under its own excessive weight. The ghat is named after the scindias, who built it in 1830. Above the ghat, several of kashi’s most influential shrines are located within the tight maze of alleys of Siddha Kshetra (Field of Fulfillment). According to mythology, agni(fire), the God of Fire, was born here. Hindu devotees propitiate at this place to Vireshwara, the Lord of all heroes, for a son. Scindia Ghat has Manikarnika Ghat on the north side. The ghat is located in Ghasi Tola of Varanasi. It is located just 1.2 km from Dashashwamedh Ghat if travelled through Tripura Bhairwi road. The ghat is located 7 km away from Banaras Hindu University.
+It is famous for the bathing on the ghat that who are joining the funeral work at Manikarnika ghat to burn the dead body of their relativities some times after all of take up both here but local public come down to the come for bath here for the worship of Shiva as Atmavisheswar sankatha ji 'pitambara Devi 'more God and godess temple on the top of banking Ganga. In the daily basis and his work schedule to her worshipped in same temple. On the top of banking details of the more temple as Atma viseswar'Dev guru brihaspati 'Maharajah yam 'Goddess sankatha Devi Pitambara'katyani'morherkali more shiv temple in narrow street in Vns.
+</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Dattatreya_Ghat_GBH">
+        <item>25.311563</item>
+        <item>83.015031</item>
+        <item>Ghats of varanasi, Ghasi Tola, Varanasi, Uttar Pradesh 221001</item>
+        <item>No Description Available</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Manikarnika_Ghat_GBH">
+        <item>25.310825</item>
+        <item>83.014102</item>
+        <item>Near Lalita Ghat, Ghats of varanasi, Lahori Tola, Varanasi, Uttar Pradesh 221001</item>
+        <item>One of the city oldest ghats, this iconic site is a storied spot for traditional Hindu cremations. It is one of the oldest ghats in Varanasi. The Manikarnika Ghat is mentioned in a Gupta inscription of 5th century.[4] It is revered in Hindu religion. When Mata Sati (Aadi shakti mata) sacrificed her life and set her body ablaze after Raja Daksh Prajapati (one of the sons of Lord Brahma) tried to humiliate Lord Shiva in a Yagya practiced by Daksh. Lord Shiva took her burning body to the Himalaya. On seeing the unending sorrow of Lord Shiva, Vishnu sends the Divine chakra to cut the body into 51 parts which fall on earth. They are called "Ekannya Shaktipeeth". Lord Shiva established Shakti Peeth wherever Sati body had fallen. At Manikarnika ghat, Mata Sati Ear ornament had fallen.
+To know that tourists come here to see the funeral pyres being set to fire in the open is more weird than fascinating. The routine ceremony starts when the dead body (wrapped in cloth) arrives and is carried on a bamboo stretcher with the chant ‘Ram naam satya hai’ echoing through the air. Next, the cost of cremation is calculated depending on the weight and type of the wood used. Sandalwood is the most expensive of all wood varieties available. The corpse is then dipped in the water of the River Ganges while the wood is stacked to build the pyre. Though photography is not allowed here, several tourists, especially foreigners, capture videos of the ghat or click pictures while on a boat tour of the city.
+</item>
+        <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
+    </string-array>
+    <string-array name="Lalita_Ghat_GBH">
+        <item>25.310139</item>
+        <item>83.013288</item>
+        <item>Near Meer Ghat, Ghats of varanasi, Lahori Tola, Varanasi, Uttar Pradesh 221001</item>
+        <item>One of the main ghats on the Ganges River in Varanasi. The ghat is named after Hindu Goddess Lalita and was built in early 19th century by King of Nepal, Rana Bahadur Shah. The ghat houses the famous Nepali Mandir and Lalita Gauri Mandir.
+King of Nepal, Rana Bahadur Shah took exile in Varanasi from 1800 to 1804 and titled himself as "Swami Nirgunanda". During his exile, he decided to build a replica of Pashupatinath Temple in Varanasi. Construction of the temple commenced during his exile / stay in Varanasi. During the construction, Shah moved back to Nepal. On 25 April 1806, Rana Bahadur Shah was stabbed to death by his stepbrother, Sher Bahadur Shah. His son Girvan Yuddha Bikram Shah Deva undertook the construction of the temple (now called Nepali Mandir), a dharamshala and Lalita Ghat. The construction got over 20 years after the deadline.
+The ghat is named after Hindu Goddess Lalita. Goddess Lalita is one of the group of ten goddesses of Hindu belief, collectively called Mahavidyas or Dasha-Mahavidyas. She is the foremost and the most important in Dasha-Mahavidyas. All other Mahavidyas concludes in her vidya i.e. Sri Vidya. Her consort is Maha Kameswara. She is the highest aspect of Goddess Adi Shakti. Parvati is the complete incarnation of Lalita Maha Tripura Sundari.
+Affiliated to this site are the well known Lingam of Ganga Keshava; shrines of Gangatitya, Kashi Devi, Lalita Devi and Bhagirath Tirtha. It is a popular belief that a glimpse of Lalita Devi brings the same blessings as circumambulating the entire world. It is also believed that blessings of the Goddess Lalita eliminates problems and brings prosperity.
+</item>
+        <item> It is 3.8 kilometers South-East of Varanasi Junction railway station</item>
     </string-array>
     <string-array name="Adarsh_Ghat_GBH">
         <item>25.607021</item>
