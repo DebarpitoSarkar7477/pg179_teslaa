@@ -95,7 +95,6 @@
         <item>Babupur Ghat</item>
         <item>Bengali Baba Ghat</item>
         <item>Bhadra Ghat</item>
-        <item>Dattatreya Ghat</item>
         <item>Digha Ghat</item>
         <item>Duli Ghat</item>
         <item>Gai Ghat</item>
@@ -103,13 +102,10 @@
         <item>Jahanvi Brahmbaba Ghat</item>
         <item>Kahalgaon Ghat</item>
         <item>Khajekalan Ghat</item>
-        <item>Lalita Ghat</item>
         <item>Mahavir Ghat</item>
         <item>Manihari Ghat</item>
-        <item>Manikarnika Ghat</item>
         <item>Mokama Ghat</item>
         <item>Rasulpur Ghat</item>
-        <item>Scindia Ghat</item>
         <item>Sita Ghat</item>
         <item>Sultanganj Ghat</item>
     </string-array>
@@ -137,175 +133,175 @@
         <item>Bisanpur Ghat</item>
         <item>Chattpuja Ghat Mansi</item>
         <item>Lakri Dhai Ghat</item>
-        <item>Sangam Ghat</item>
         <item>Rani Shiv Mandir Raini Ghat</item>
+        <item>Sangam Ghat</item>
     </string-array>
     <string-array name="GANGA_UP">
-        <item>Nishadraj Ghat</item>
-        <item>Raj Ghat</item>
-        <item>Rani Ghat</item>
-        <item>Telianala Ghat</item>
-        <item>Sakka Ghat</item>
-        <item>Trilochan Ghat</item>
-        <item>Gaay Ghat</item>
-        <item>Sheetala Ghat</item>
-        <item>Bundi Parkota Ghat</item>
-        <item>Brahma Ghat</item>
-        <item>Panchaganga Ghat</item>
-        <item>Jatar Ghat</item>
-        <item>Ram Ghat</item>
-        <item>Mehta Ghat</item>
-        <item>Naya Ghat</item>
-        <item>Bhonsale Ghat</item>
-        <item>Ganga Mahal Ghat</item>
-        <item>Sankatha Ghat</item>
         <item>Aadi Keshav Ghat</item>
+        <item>Bhonsale Ghat</item>
+        <item>Brahma Ghat</item>
+        <item>Bundi Parkota Ghat</item>
+        <item>Dattatreya Ghat</item>
+        <item>Dr.Rajendraprasad Ghat</item>
+        <item>Gaay Ghat</item>
+        <item>Ganga Ghat-Vishwanath Mandir</item>
+        <item>Ganga Mahal Ghat</item>
         <item>Ganga River Bank</item>
         <item>Gola Ghat</item>
-        <item>Nandeshwar Ghat</item>
-        <item>Venimadhava Ghat</item>
-        <item>Mangala Gouri Ghat</item>
-        <item>Raja Gwalior Ghat</item>
         <item>Guleia Ghat</item>
-        <item>Shree Ganesh mandir Ghat</item>
-        <item>Scindia Ghat</item>
-        <item>Dattatreya Ghat</item>
-        <item>Ratneswar Mahadev Mandir</item>
-        <item>Ganga Ghat-Vishwanath Mandir</item>
-        <item>Manikarnika Ghat</item>
         <item>Jalsen Ghat</item>
+        <item>Jatar Ghat</item>
         <item>Lalita Ghat</item>
-        <item>Nepali Ghat</item>
+        <item>Mangala Gouri Ghat</item>
+        <item>Manikarnika Ghat</item>
         <item>Meer Ghat</item>
-        <item>Dr.Rajendraprasad Ghat</item>
+        <item>Mehta Ghat</item>
+        <item>Nandeshwar Ghat</item>
+        <item>Naya Ghat</item>
+        <item>Nepali Ghat</item>
+        <item>Nishadraj Ghat</item>
+        <item>Panchaganga Ghat</item>
         <item>Prayag Ghat</item>
+        <item>Raj Ghat</item>
+        <item>Raja Gwalior Ghat</item>
+        <item>Ram Ghat</item>
+        <item>Rani Ghat</item>
+        <item>Ratneswar Mahadev Mandir</item>
+        <item>Sakka Ghat</item>
+        <item>Sankatha Ghat</item>
+        <item>Scindia Ghat</item>
+        <item>Sheetala Ghat</item>
+        <item>Shree Ganesh mandir Ghat</item>
+        <item>Telianala Ghat</item>
+        <item>Trilochan Ghat</item>
+        <item>Venimadhava Ghat</item>
     </string-array>
     <string-array name="KALIGANDHAK_UP">
-        <item>Keshi Ghat</item>
-        <item>Thakurani Ghat</item>
-        <item>Koyla Ghat</item>
-        <item>Bramhananda Ghat</item>
-        <item>Pohiya Ghat</item>
-        <item>Yamuna Aarti Ghat</item>
-        <item>Saraswati Ghat</item>
-        <item>Ferry Ghat</item>
-        <item>Visram Ghat</item>
-        <item>Chatth Puja Ghat</item>
-        <item>Sangam Ghat(Ganga+Yamuna+Saraswati)</item>
-        <item>Triveni Ghat</item>
+        <item>Balkeswar Ghat</item>
         <item>Baradari Ghat</item>
         <item>Bargad Ghat</item>
-        <item>Vasudev Ghat</item>
-        <item>Prachin Akhara Swami Ghat</item>
-        <item>Mukti Dham Ghat</item>
+        <item>Bisrant Ghat</item>
+        <item>Bramhananda Ghat</item>
+        <item>Chatth Puja Ghat</item>
+        <item>Ferry Ghat</item>
         <item>Haathi Ghat</item>
         <item>Harivansh Ghat</item>
-        <item>Raman Reti Yamuna Ghat</item>
-        <item>Yamuna bank Gokul Ghat</item>
-        <item>Balkeswar Ghat(Funeral)</item>
-        <item>Ram Ghat</item>
-        <item>Madaur Yamuna Ghat</item>
-        <item>Yamuna Temple</item>
+        <item>Keshi Ghat</item>
         <item>Khadera Ghat haridas Baba</item>
-        <item>Bisrant Ghat</item>
+        <item>Koyla Ghat</item>
+        <item>Madaur Yamuna Ghat</item>
+        <item>Mukti Dham Ghat</item>
+        <item>Pohiya Ghat</item>
+        <item>Prachin Akhara Swami Ghat</item>
+        <item>Ram Ghat</item>
+        <item>Raman Reti Yamuna Ghat</item>
+        <item>Sangam Ghat(Ganga+Yamuna+Saraswati)</item>
+        <item>Saraswati Ghat</item>
+        <item>Thakurani Ghat</item>
+        <item>Triveni Ghat</item>
+        <item>Vasudev Ghat</item>
+        <item>Visram Ghat</item>
+        <item>Yamuna Aarti Ghat</item>
+        <item>Yamuna bank Gokul Ghat</item>
+        <item>Yamuna Temple</item>
     </string-array>
     <string-array name="GOMTI_UP">
-        <item>Devdeveswar Mandir</item>
-        <item>Gulala Samshan Ghat</item>
-        <item>Gomti Riverfront park</item>
-        <item>Kuria ghat park</item>
-        <item>Khirki Ghat Kishni</item>
-        <item>Gomti Dhobi Ghat</item>
-        <item>Maharishi Devraha Ghat Temple</item>
         <item>Baikunth Dham Ghat(Cremation)</item>
-        <item>Piparghat Samshan Sthaal</item>
-        <item>Hanuman Ghat</item>
+        <item>Devdeveswar Mandir</item>
         <item>Gokul Ghat</item>
-        <item>Madhura Gomti Ghat</item>
+        <item>Gomti Dhobi Ghat</item>
+        <item>Gomti Riverfront park</item>
+        <item>Gulala Samshan Ghat</item>
+        <item>Hanuman Ghat</item>
+        <item>Khirki Ghat Kishni</item>
         <item>Kudia Ghat</item>
+        <item>Kuria ghat park</item>
+        <item>Madhura Gomti Ghat</item>
+        <item>Maharishi Devraha Ghat Temple</item>
+        <item>Piparghat Samshan Sthaal</item>
     </string-array>
     <string-array name="GHAGHARA_UP">
+        <item>Chahlari Ghat Bridge</item>
+        <item>Gau Ghat</item>
+        <item>Godiyana Ghat</item>
+        <item>Guptar Ghat</item>
+        <item>Katarniya Ghat Boating Center</item>
         <item>Naya Ghat</item>
         <item>Ram Janki Mandir Dhemua Ghat</item>
-        <item>Guptar Ghat</item>
-        <item>Godiyana Ghat</item>
-        <item>Chahlari Ghat Bridge</item>
-        <item>Katarniya Ghat Boating Center</item>
+        <item>Samshan Ghat Haldirampur</item>
         <item>Saryu Ghat</item>
         <item>Syama Sadan mandir Ramghat</item>
-        <item>Gau Ghat</item>
-        <item>Samshan Ghat Haldirampur</item>
     </string-array>
     <string-array name="TAMSA_MP">
-        <item>Sati Ghat</item>
-        <item>Masjid Ghat Wali</item>
-        <item>Belwaghat Mau</item>
         <item>BandiGhat Shiv</item>
-        <item>Shiv Mandir Raj Ghat</item>
-        <item>Shiv Mandir Dhauraharaghat</item>
         <item>Barasat Ghat Masjid</item>
-        <item>Walidpur Ghat Mandir</item>
-        <item>Piyaropur Samsan Ghat</item>
-        <item>Kali Ghat</item>
+        <item>Belwaghat Mau</item>
         <item>Gauri Shankar Ghat</item>
+        <item>Kali Ghat</item>
+        <item>Masjid Ghat Wali</item>
+        <item>Piyaropur Samsan Ghat</item>
+        <item>Sati Ghat</item>
+        <item>Shiv Mandir Dhauraharaghat</item>
+        <item>Shiv Mandir Raj Ghat</item>
+        <item>Walidpur Ghat Mandir</item>
     </string-array>
     <string-array name="YAMUNA_DEL">
-        <item>Shyam Ghat Mandir</item>
-        <item>Shyam Ghat </item>
-        <item>Sur Ghat</item>
-        <item>Ganpati Visarjan Ghat</item>
+        <item>Chatth Ghat</item>
         <item>Dayadham Yamuna Aarti Ghat</item>
         <item>Ganesh Ghat</item>
+        <item>Ganpati Visarjan Ghat</item>
         <item>Jamnapaar Ghat</item>
-        <item>Shamshaan Ghat</item>
-        <item>Nigambodh Cremation Ghat</item>
-        <item>Shamshaan Ghat Geeta Colony</item>
         <item>Kalindi Kunj Samshan Ghat</item>
         <item>Kashmiri Ghat</item>
         <item>Kashyap Ghat</item>
-        <item>Yamuna Ghat</item>
-        <item>Chatth Ghat</item>
         <item>Madanpur Khadar Samshan Ghat</item>
+        <item>Nigambodh Cremation Ghat</item>
+        <item>Shamshaan Ghat Geeta Colony</item>
+        <item>Shamshaan Ghat</item>
+        <item>Shyam Ghat </item>
+        <item>Shyam Ghat Mandir</item>
+        <item>Sur Ghat</item>
         <item>Vishwakarma Chatth Ghat</item>
+        <item>Yamuna Ghat</item>
     </string-array>
     <string-array name="GANGA_UK">
-        <item>Satrughana Temple Ghat</item>
-        <item>Ram Jhoola Ganga Ghat</item>
-        <item>Parmarth Niketan</item>
-        <item>Purnand Ghat</item>
-        <item>Triveni Ghat</item>
-        <item>Sarvanand Ghat</item>
-        <item>Har ki Pauri Ghat</item>
-        <item>Kusha Ghat</item>
-        <item>Chaudhary Charan Singh Ghat</item>
-        <item>Ganga Aarti Sthaal</item>
-        <item>Haridwar Ghat</item>
         <item>Alakananda Ghat</item>
-        <item>Shri Ram Ghat</item>
-        <item>Mahamama Ghat</item>
-        <item>Maharishi Kasyap Ghat</item>
-        <item>Vivekanand Ghat</item>
-        <item>Shree Govind Ghat</item>
-        <item>Vishwakarma Ghat</item>
-        <item>Sadguru dev shree hans ji maharaj pawan ghat</item>
-        <item>Prem Nagar Ashram Ghat old</item>
-        <item>Prem Nagar Ashram Ghat new</item>
-        <item>Ganga Ghat of Singh Dwar</item>
-        <item>Bhagirathi Ghat</item>
         <item>Beerbhadra Ganga Ghat</item>
         <item>Bhagirathi Alakananda Sangam Ghat</item>
+        <item>Bhagirathi Ghat</item>
+        <item>Chaudhary Charan Singh Ghat</item>
         <item>Devprayag Ghat</item>
+        <item>Ganga Aarti Sthaal</item>
+        <item>Ganga Ghat of Singh Dwar</item>
         <item>Ganga Ghat</item>
+        <item>Har ki Pauri Ghat</item>
+        <item>Haridwar Ghat</item>
+        <item>Kusha Ghat</item>
+        <item>Mahamama Ghat</item>
+        <item>Maharishi Kasyap Ghat</item>
+        <item>Parmarth Niketan</item>
+        <item>Prem Nagar Ashram Ghat new</item>
+        <item>Prem Nagar Ashram Ghat old</item>
+        <item>Purnand Ghat</item>
+        <item>Ram Jhoola Ganga Ghat</item>
+        <item>Sadguru dev shree hans ji maharaj pawan ghat</item>
+        <item>Sarvanand Ghat</item>
+        <item>Satrughana Temple Ghat</item>
+        <item>Shree Govind Ghat</item>
+        <item>Shri Ram Ghat</item>
+        <item>Triveni Ghat</item>
+        <item>Vishwakarma Ghat</item>
+        <item>Vivekanand Ghat</item>
     </string-array>
     <string-array name="GANGA_JHR">
-        <item>Samda River Ganga Port</item>
-        <item>Suryadev Chhat Ghat</item>
-        <item>Shiv Mandir Gudara Ghat</item>
-        <item>Rajmahal Ferry Ghat</item>
-        <item>Salempur Ghat</item>
         <item>Bhutni Ferry Ghat</item>
-        <item>Sakri Gali Ghat</item>
         <item>Manikchak Ferry Ghat</item>
+        <item>Rajmahal Ferry Ghat</item>
+        <item>Sakri Gali Ghat</item>
+        <item>Salempur Ghat</item>
+        <item>Samda River Ganga Port</item>
+        <item>Shiv Mandir Gudara Ghat</item>
+        <item>Suryadev Chhat Ghat</item>
     </string-array>
     <string-array name="SONE_JHR">
         <item>Deori Samsan Ghat</item>
@@ -1137,7 +1133,7 @@ The Narayan dynasty, in 1830, built a palace via the river Ganga in Varanasi. Th
         <item>Really great place to visit, and has a nice vibe too. definitely take a boat tour to the other side of the bank and watch the evening aarti from the boat itself.</item>
         <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
     </string-array>
-    <string-array name="Scindia_Ghat_GBH">
+    <string-array name="Scindia_Ghat_GUP">
         <item>25.312148</item>
         <item>83.015616</item>
         <item>Dattatreya math, Varanasi, Uttar Pradesh 221001</item>
@@ -1147,14 +1143,14 @@ It is famous for the bathing on the ghat that who are joining the funeral work a
 </item>
         <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
     </string-array>
-    <string-array name="Dattatreya_Ghat_GBH">
+    <string-array name="Dattatreya_Ghat_GUP">
         <item>25.311563</item>
         <item>83.015031</item>
         <item>Ghats of varanasi, Ghasi Tola, Varanasi, Uttar Pradesh 221001</item>
         <item>No Description Available</item>
         <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
     </string-array>
-    <string-array name="Manikarnika_Ghat_GBH">
+    <string-array name="Manikarnika_Ghat_GUP">
         <item>25.310825</item>
         <item>83.014102</item>
         <item>Near Lalita Ghat, Ghats of varanasi, Lahori Tola, Varanasi, Uttar Pradesh 221001</item>
@@ -1163,7 +1159,7 @@ To know that tourists come here to see the funeral pyres being set to fire in th
 </item>
         <item>Auto, Cycle Rikshaw service available. Boating service available.</item>
     </string-array>
-    <string-array name="Lalita_Ghat_GBH">
+    <string-array name="Lalita_Ghat_GUP">
         <item>25.310139</item>
         <item>83.013288</item>
         <item>Near Meer Ghat, Ghats of varanasi, Lahori Tola, Varanasi, Uttar Pradesh 221001</item>
