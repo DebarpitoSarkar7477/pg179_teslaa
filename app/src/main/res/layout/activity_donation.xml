@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/e6"
             android:hint="Enter CVV"
-            android:inputType="number"
+            android:inputType="numberPassword"
             android:layout_below="@+id/e5"/>
         <EditText
             android:layout_width="match_parent"
