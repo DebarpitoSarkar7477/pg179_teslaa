@@ -890,6 +890,34 @@ public class Description2 extends AppCompatActivity {
             m=Float.parseFloat(List1[0]);
             p=Float.parseFloat(List1[1]);
         }
+        else if(comp.equals("Scindia Ghat_GUP")){
+            int n=5;
+            List1=new String[n];
+            List1=getResources().getStringArray(R.array.Sankatha_Ghat_GUP);
+            m=Float.parseFloat(List1[0]);
+            p=Float.parseFloat(List1[1]);
+        }
+        else if(comp.equals("Dattatreya Ghat_GUP")){
+            int n=5;
+            List1=new String[n];
+            List1=getResources().getStringArray(R.array.Sankatha_Ghat_GUP);
+            m=Float.parseFloat(List1[0]);
+            p=Float.parseFloat(List1[1]);
+        }
+        else if(comp.equals("Manikarnika Ghat_GUP")){
+            int n=5;
+            List1=new String[n];
+            List1=getResources().getStringArray(R.array.Sankatha_Ghat_GUP);
+            m=Float.parseFloat(List1[0]);
+            p=Float.parseFloat(List1[1]);
+        }
+        else if(comp.equals("Lalita Ghat_GUP")){
+            int n=5;
+            List1=new String[n];
+            List1=getResources().getStringArray(R.array.Sankatha_Ghat_GUP);
+            m=Float.parseFloat(List1[0]);
+            p=Float.parseFloat(List1[1]);
+        }
         else if(comp.equals("Adarsh Ghat_GBH")){
             int n=5;
             List1=new String[n];
