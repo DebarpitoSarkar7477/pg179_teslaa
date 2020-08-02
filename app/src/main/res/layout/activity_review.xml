@@ -51,12 +51,18 @@
                 android:text="NO"
                 android:layout_below="@+id/rd1"/>
         </RadioGroup>
+        <RatingBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rate1"
+            android:numStars="5"
+            android:layout_below="@+id/f1"/>
         <TextView
             android:id="@+id/tv2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/f1"
-            android:text="Are there proper clean toilets nearby?"
+            android:layout_below="@+id/rate1"
+            android:text="Are there proper clean sanitized toilets/ safe clean Changing rooms for Women nearby?"
             android:layout_marginTop="29dp" />
         <RadioGroup
             android:layout_width="wrap_content"
@@ -76,11 +82,17 @@
                 android:text="NO"
                 android:layout_below="@+id/rd3"/>
         </RadioGroup>
+        <RatingBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rate2"
+            android:numStars="5"
+            android:layout_below="@+id/f2"/>
         <TextView
             android:id="@+id/tv3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/f2"
+            android:layout_below="@+id/rate2"
             android:text="Is there a proper lighting present?"
             android:layout_marginTop="29dp" />
         <RadioGroup
@@ -101,11 +113,17 @@
                 android:text="NO"
                 android:layout_below="@+id/rd5"/>
         </RadioGroup>
+        <RatingBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rate3"
+            android:numStars="5"
+            android:layout_below="@+id/f3"/>
         <TextView
             android:id="@+id/tv4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/f3"
+            android:layout_below="@+id/rate3"
             android:text="Are there sufficient dustbins present nearby?"
             android:layout_marginTop="29dp" />
         <RadioGroup
@@ -126,24 +144,68 @@
                 android:text="NO"
                 android:layout_below="@+id/rd7"/>
         </RadioGroup>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="RATE FOR CLEANLINESS"
-            android:layout_below="@+id/f4"
-            android:id="@+id/lol"/>
         <RatingBar
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/rate"
+            android:id="@+id/rate4"
             android:numStars="5"
-            android:layout_below="@+id/lol"/>
+            android:layout_below="@+id/f4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Is there CC TV Surveillance near the Ghat ?"
+            android:layout_below="@+id/rate4"
+            android:layout_marginTop="29dp"
+            android:id="@+id/lol"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rate"
+            android:layout_below="@+id/lol">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rd9"
+                android:text="YES"
+                android:layout_below="@+id/f4"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rd10"
+                android:text="NO"
+                android:layout_below="@+id/rd7"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Are Civic Volunteers available near the Ghat?"
+            android:layout_below="@+id/rate"
+            android:layout_marginTop="29dp"
+            android:id="@+id/lolipop"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratexy"
+            android:layout_below="@+id/lolipop">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rd11"
+                android:text="YES"
+                android:layout_below="@+id/f4"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rd12"
+                android:text="NO"
+                android:layout_below="@+id/rd7"/>
+        </RadioGroup>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tty"
             android:text="Share information relavent to the Ghat"
-            android:layout_below="@+id/rate"/>
+            android:layout_below="@+id/ratexy"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="120dp"

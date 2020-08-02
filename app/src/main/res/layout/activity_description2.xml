@@ -106,7 +106,12 @@
             android:id="@+id/nh"
             android:layout_below="@+id/rl"
             android:text="Nearby Hospitals" />
-
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/bt"
+            android:layout_below="@+id/nh"
+            android:text="Book Tent" />
 
 
     </RelativeLayout>
