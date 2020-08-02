@@ -117,7 +117,7 @@
             android:layout_height="25dp"
             android:id="@+id/t13"
             android:layout_below="@+id/tt4"
-            android:text="Rating"/>
+            android:text="Is there CC TV Surveillance near the Ghat ?"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="25dp"
@@ -126,12 +126,23 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="25dp"
-            android:id="@+id/t15"
+            android:id="@+id/ted"
             android:layout_below="@+id/t14"
+            android:text="Are Civic Volunteers available near the Ghat?"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:id="@+id/tio"
+            android:layout_below="@+id/ted"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:id="@+id/t15"
+            android:layout_below="@+id/tio"
             android:text="Comments"/>
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:id="@+id/t16"
             android:layout_below="@+id/t15"/>
         <TextView
