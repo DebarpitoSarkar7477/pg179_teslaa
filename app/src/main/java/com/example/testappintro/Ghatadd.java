@@ -1,10 +1,19 @@
 package com.example.testappintro;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
+import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -31,12 +40,24 @@ import java.util.Map;
 
 public class Ghatadd extends AppCompatActivity {
     EditText ed1,ed2,ed3,ed4,ed5,ed6,ed7,ed0;
-    String a1,a2,a3,a4,st1,st2,str;
+    String a1,a2,a3,a4,st1,st2,str,x,latlong;
     Button b,b1,b2;
     RadioButton rd3,rd4,rd5,rd6,rd7,rd8,r1,r2,r3,r4;
     ImageView image1,image2;
     private int IMGR=21,IMG=13;
     Bitmap bitmap,bitmap1;
+    LocationManager locationManager;
+    LocationListener locationListener;
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
+            }
+        }
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -85,7 +106,37 @@ public class Ghatadd extends AppCompatActivity {
             }
         });
 
-       b.setOnClickListener(new View.OnClickListener() {
+        final Location loc = new Location("");
+        x="";
+
+
+
+        locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
+        locationListener = new LocationListener() {
+            @Override
+            public void onLocationChanged(Location location) {
+                loc.setLatitude(location.getLatitude());
+                loc.setLongitude(location.getLongitude());
+                x=String.valueOf(loc.getLatitude());
+            }
+
+            @Override
+            public void onStatusChanged(String s, int i, Bundle bundle) {
+
+            }
+
+            @Override
+            public void onProviderEnabled(String s) {
+
+            }
+
+            @Override
+            public void onProviderDisabled(String s) {
+
+            }
+        };
+
+        b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if(rd3.isChecked())
@@ -134,11 +185,14 @@ public class Ghatadd extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Image Not Selected is Empty",Toast.LENGTH_SHORT).show();
                 else if(st2.equals(""))
                     Toast.makeText(getApplicationContext(),"Image Not Selected is Empty",Toast.LENGTH_SHORT).show();
+                else if(x.equals(""))
+                    Toast.makeText(getApplicationContext(),"Wait",Toast.LENGTH_SHORT).show();
                 else {
-                     str=a1+";"+ed6.getText().toString()+";"+a2+";"+a3+";"+ed7.getText().toString();
+                    str=a1+";"+ed6.getText().toString()+";"+a2+";"+a3+";"+ed7.getText().toString();
                     // Intent intent=new Intent(Review.this,MainActivity2.class);
                     // startActivity(intent);
                     //Toast.makeText(getApplicationContext(), str , Toast.LENGTH_SHORT).show();
+                    latlong=String.valueOf(loc.getLatitude())+","+String.valueOf(loc.getLongitude());
                     StringRequest stringRequest = new StringRequest(Request.Method.POST, "http:192.168.29.117/Subject/newadd.php", new Response.Listener<String>() {
                         @Override
                         public void onResponse(String response) {
@@ -178,6 +232,7 @@ public class Ghatadd extends AppCompatActivity {
                             params.put("type", a4);
                             params.put("up1", st1);
                             params.put("up2", st2);
+                            params.put("latlong", latlong);
                             return params;
                         }
                     };
@@ -186,6 +241,14 @@ public class Ghatadd extends AppCompatActivity {
                 }
             }
         });
+
+        if (ContextCompat.checkSelfPermission(this,Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED){
+            ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.ACCESS_FINE_LOCATION},1);
+
+        }
+        else {
+            locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
+        }
 
 
     }
