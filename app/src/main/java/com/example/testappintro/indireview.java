@@ -31,7 +31,7 @@ public class indireview extends AppCompatActivity {
     String y,a,b;
     String []result;
     int i;
-    TextView t1,t2,t3,t4,t5,t6,t7,t8,t9,tt1,tt2,tt3,tt4;
+    TextView t1,t2,t3,t4,t5,t6,t7,t8,t9,tt1,tt2,tt3,tt4,tio;
     Button b2;
     ImageView image1,image2;
     String I1,I2;
@@ -53,6 +53,7 @@ public class indireview extends AppCompatActivity {
         tt2=findViewById(R.id.tt2);
         tt3=findViewById(R.id.tt3);
         tt4=findViewById(R.id.tt4);
+        tio=findViewById(R.id.tio);
         image1=findViewById(R.id.image1);
         image2=findViewById(R.id.image2);
         b2=findViewById(R.id.b2);
@@ -95,14 +96,15 @@ public class indireview extends AppCompatActivity {
                 t1.setText(result[0]);
                 t2.setText(result[1]);
                 t3.setText(result[2]);
-                t4.setText(result[5]);
-                t5.setText(result[6]);
-                t6.setText(result[7]);
-                t7.setText(result[8]);
+                t4.setText(result[6]);
+                t5.setText(result[7]);
+                t6.setText(result[8]);
+                t7.setText(result[9]);
                 t8.setText(result[3]);
-                t9.setText(result[4]);
-                I1=result[9];
-                I2=result[10];
+                tio.setText(result[4]);
+                t9.setText(result[5]);
+                I1=result[10];
+                I2=result[11];
                 if(I1.equals("A")){
                 }
                 else{
@@ -118,10 +120,10 @@ public class indireview extends AppCompatActivity {
                     image2.setImageBitmap(decodedByte1);
                 }
 
-                tt1.setText(result[11]);
-                tt2.setText(result[12]);
-                tt3.setText(result[13]);
-                tt4.setText(result[14]);
+                tt1.setText(result[12]);
+                tt2.setText(result[13]);
+                tt3.setText(result[14]);
+                tt4.setText(result[15]);
 
                 // Toast.makeText(getApplicationContext(),result[9],Toast.LENGTH_LONG).show();
             }
