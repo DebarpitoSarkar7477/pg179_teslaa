@@ -163,52 +163,58 @@ public class Review extends AppCompatActivity {
                     // Intent intent=new Intent(Review.this,MainActivity2.class);
                     // startActivity(intent);
                     //  Toast.makeText(getApplicationContext(), a1 + a2 + a3 + a4+r+e, Toast.LENGTH_SHORT).show();
-                else{
-                    aa=a5+";"+a6;
-                if(ed1.getText().toString().equals(""))
-                    X="No Comments";
-                X=ed1.getText().toString();
-                StringRequest stringRequest = new StringRequest(Request.Method.POST, "http:192.168.29.117/Subject/review.php", new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-                        //Toast.makeText(getApplicationContext(),response,Toast.LENGTH_LONG).show();
+                else {
+                    aa = a5 + ";" + a6;
+                    if (ed1.getText().toString().equals(""))
+                        X = "No Comments";
+                    X = ed1.getText().toString();
+                    String email = ed.getText().toString().trim();
+                    String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
+                    if (email.matches(emailPattern)) {
+                        StringRequest stringRequest = new StringRequest(Request.Method.POST, "http:192.168.29.117/Subject/review.php", new Response.Listener<String>() {
+                            @Override
+                            public void onResponse(String response) {
+                                //Toast.makeText(getApplicationContext(),response,Toast.LENGTH_LONG).show();
 
-                        if (response.equals("1")) {
-                            Toast.makeText(getApplicationContext(), "Successfully Submitted Data", Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(Review.this, MainActivity2.class);
-                            startActivity(intent);
-                            Review.this.finish();
-                        } else {
-                            Toast.makeText(getApplicationContext(), "Failed", Toast.LENGTH_SHORT).show();
-                        }
+                                if (response.equals("1")) {
+                                    Toast.makeText(getApplicationContext(), "Successfully Submitted Data", Toast.LENGTH_SHORT).show();
+                                    Intent intent = new Intent(Review.this, MainActivity2.class);
+                                    startActivity(intent);
+                                    Review.this.finish();
+                                } else {
+                                    Toast.makeText(getApplicationContext(), "Failed", Toast.LENGTH_SHORT).show();
+                                }
 
+                            }
+                        }, new Response.ErrorListener() {
+                            @Override
+                            public void onErrorResponse(VolleyError error) {
+                                // Toast.makeText(getApplicationContext(), String.valueOf(error.getMessage()), Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "Network Problem", Toast.LENGTH_SHORT).show();
+                            }
+                        }) {
+                            protected Map<String, String> getParams() throws AuthFailureError {
+                                Map<String, String> params = new Hashtable<String, String>();
+                                params.put("name", ed0.getText().toString());
+                                params.put("email", ed.getText().toString());
+                                params.put("ghat", comp);
+                                params.put("rate", aa);
+                                params.put("comments", X);
+                                params.put("ans1", a1);
+                                params.put("ans2", a2);
+                                params.put("ans3", a3);
+                                params.put("ans4", a4);
+                                params.put("up1", st1);
+                                params.put("up2", st2);
+                                params.put("tot", totalrate);
+                                return params;
+                            }
+                        };
+                        RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
+                        queue.add(stringRequest);
                     }
-                }, new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        // Toast.makeText(getApplicationContext(), String.valueOf(error.getMessage()), Toast.LENGTH_SHORT).show();
-                        Toast.makeText(getApplicationContext(), "Network Problem", Toast.LENGTH_SHORT).show();
-                    }
-                }) {
-                    protected Map<String, String> getParams() throws AuthFailureError {
-                        Map<String, String> params = new Hashtable<String, String>();
-                        params.put("name", ed0.getText().toString());
-                        params.put("email", ed.getText().toString());
-                        params.put("ghat", comp);
-                        params.put("rate", aa);
-                        params.put("comments", X);
-                        params.put("ans1", a1);
-                        params.put("ans2", a2);
-                        params.put("ans3", a3);
-                        params.put("ans4", a4);
-                        params.put("up1", st1);
-                        params.put("up2", st2);
-                        params.put("tot", totalrate);
-                        return params;
-                    }
-                };
-                RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
-                queue.add(stringRequest);
+                    else
+                        Toast.makeText(getApplicationContext(),"Not a valid mail",Toast.LENGTH_SHORT).show();
                 }
             }
         });

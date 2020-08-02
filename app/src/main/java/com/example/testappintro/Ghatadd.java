@@ -188,57 +188,64 @@ public class Ghatadd extends AppCompatActivity {
                 else if(x.equals(""))
                     Toast.makeText(getApplicationContext(),"Wait",Toast.LENGTH_SHORT).show();
                 else {
-                    str=a1+";"+ed6.getText().toString()+";"+a2+";"+a3+";"+ed7.getText().toString();
+                    str = a1 + ";" + ed6.getText().toString() + ";" + a2 + ";" + a3 + ";" + ed7.getText().toString();
                     // Intent intent=new Intent(Review.this,MainActivity2.class);
                     // startActivity(intent);
                     //Toast.makeText(getApplicationContext(), str , Toast.LENGTH_SHORT).show();
-                    latlong=String.valueOf(loc.getLatitude())+","+String.valueOf(loc.getLongitude());
-                    StringRequest stringRequest = new StringRequest(Request.Method.POST, "http:192.168.29.117/Subject/newadd.php", new Response.Listener<String>() {
-                        @Override
-                        public void onResponse(String response) {
-                            //Toast.makeText(getApplicationContext(), response , Toast.LENGTH_SHORT).show();
-                            if (response.equals("1")) {
-                                Toast.makeText(getApplicationContext(), "Successfully Submitted Data", Toast.LENGTH_SHORT).show();
-                                Intent intent=new Intent(Ghatadd.this,MainActivity2.class);
-                                startActivity(intent);
-                                Ghatadd.this.finish();
+                    latlong = String.valueOf(loc.getLatitude()) + "," + String.valueOf(loc.getLongitude());
+                    String email = ed1.getText().toString().trim();
+                    String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
+                    if (email.matches(emailPattern)) {
+                        StringRequest stringRequest = new StringRequest(Request.Method.POST, "http:192.168.29.117/Subject/newadd.php", new Response.Listener<String>() {
+                            @Override
+                            public void onResponse(String response) {
+                                //Toast.makeText(getApplicationContext(), response , Toast.LENGTH_SHORT).show();
+                                if (response.equals("1")) {
+                                    Toast.makeText(getApplicationContext(), "Successfully Submitted Data", Toast.LENGTH_SHORT).show();
+                                    Intent intent = new Intent(Ghatadd.this, MainActivity2.class);
+                                    startActivity(intent);
+                                    Ghatadd.this.finish();
+
+                                } else {
+                                    Toast.makeText(getApplicationContext(), "Failed", Toast.LENGTH_SHORT).show();
+                                }
 
                             }
-                            else{
-                                Toast.makeText(getApplicationContext(), "Failed", Toast.LENGTH_SHORT).show();
+                        }, new Response.ErrorListener() {
+                            @Override
+                            public void onErrorResponse(VolleyError error) {
+                                // Toast.makeText(getApplicationContext(), String.valueOf(error.getMessage()), Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "Network Problem", Toast.LENGTH_SHORT).show();
                             }
-
-                        }
-                    }, new Response.ErrorListener() {
-                        @Override
-                        public void onErrorResponse(VolleyError error) {
-                            // Toast.makeText(getApplicationContext(), String.valueOf(error.getMessage()), Toast.LENGTH_SHORT).show();
-                            Toast.makeText(getApplicationContext(), "Network Problem", Toast.LENGTH_SHORT).show();
-                        }
-                    }) {
-                        protected Map<String, String> getParams() throws AuthFailureError {
-                            Map<String, String> params = new Hashtable<String, String>();
-                            params.put("name", ed0.getText().toString());
-                            params.put("ghat", ed2.getText().toString());
-                            params.put("email", ed1.getText().toString());
-                            params.put("river",ed3.getText().toString());
-                            params.put("add", ed4.getText().toString());
-                            params.put("des", ed5.getText().toString());
-                            params.put("ans", str);
-                            //params.put("ans2", a2);
-                            //params.put("ans3", a3);
-                            //params.put("ans4", ed6.getText().toString());
-                            //params.put("ans5", ed7.getText().toString());
-                            params.put("type", a4);
-                            params.put("up1", st1);
-                            params.put("up2", st2);
-                            params.put("latlong", latlong);
-                            return params;
-                        }
-                    };
-                    RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
-                    queue.add(stringRequest);
+                        }) {
+                            protected Map<String, String> getParams() throws AuthFailureError {
+                                Map<String, String> params = new Hashtable<String, String>();
+                                params.put("name", ed0.getText().toString());
+                                params.put("ghat", ed2.getText().toString());
+                                params.put("email", ed1.getText().toString());
+                                params.put("river", ed3.getText().toString());
+                                params.put("add", ed4.getText().toString());
+                                params.put("des", ed5.getText().toString());
+                                params.put("ans", str);
+                                //params.put("ans2", a2);
+                                //params.put("ans3", a3);
+                                //params.put("ans4", ed6.getText().toString());
+                                //params.put("ans5", ed7.getText().toString());
+                                params.put("type", a4);
+                                params.put("up1", st1);
+                                params.put("up2", st2);
+                                params.put("latlong", latlong);
+                                return params;
+                            }
+                        };
+                        RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
+                        queue.add(stringRequest);
+                    }
+                    else
+                        Toast.makeText(getApplicationContext(),"Not a valid mail",Toast.LENGTH_SHORT).show();
                 }
+
+
             }
         });
 
