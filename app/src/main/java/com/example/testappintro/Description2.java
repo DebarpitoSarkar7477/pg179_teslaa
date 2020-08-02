@@ -13,6 +13,7 @@ import android.graphics.Typeface;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.View;
@@ -34,8 +35,8 @@ import java.util.StringTokenizer;
 
 public class Description2 extends AppCompatActivity {
 
-    Button r,b;
-    TextView t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;
+    Button r,b,b1,nh;
+    TextView t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12;
     String comp,x;
     String []result,List1;
     Float m,p;
@@ -70,11 +71,23 @@ public class Description2 extends AppCompatActivity {
         t8=findViewById(R.id.t5);
         t9=findViewById(R.id.t7);
         t10=findViewById(R.id.t9);
+        t11=findViewById(R.id.t11);
+        t12=findViewById(R.id.t12);
         t6.setTypeface(null, Typeface.BOLD_ITALIC);
         t7.setTypeface(null, Typeface.BOLD_ITALIC);
         t8.setTypeface(null, Typeface.BOLD_ITALIC);
         t9.setTypeface(null, Typeface.BOLD_ITALIC);
         t10.setTypeface(null, Typeface.BOLD_ITALIC);
+        t11.setTypeface(null, Typeface.BOLD_ITALIC);
+        b1=findViewById(R.id.rl);
+        nh=findViewById(R.id.nh);
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(Description2.this,listofreview.class);
+                startActivity(intent);
+            }
+        });
         comp= PreferenceManager.getDefaultSharedPreferences(getApplicationContext()).getString("Name","");
         //s="xxx";
         //find loc
@@ -1061,7 +1074,7 @@ public class Description2 extends AppCompatActivity {
                 t3.setText(result[2]);
                 t4.setText(result[3]);
                 t5.setText(result[4]);
-
+                t12.setText(result[5]);
             }
         }, new Response.ErrorListener() {
             @Override
@@ -1105,6 +1118,14 @@ public class Description2 extends AppCompatActivity {
             public void onClick(View view) {
                 //Toast.makeText(getApplicationContext(),s,Toast.LENGTH_LONG).show();
                 Intent intent=new Intent(Description2.this,DescriptionofGhtas.class);
+                startActivity(intent);
+            }
+        });
+        nh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
+                        Uri.parse("geo:"+m+","+p+"?q=hospitals"));
                 startActivity(intent);
             }
         });
