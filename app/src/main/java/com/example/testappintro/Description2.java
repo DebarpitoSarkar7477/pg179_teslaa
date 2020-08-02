@@ -35,7 +35,7 @@ import java.util.StringTokenizer;
 
 public class Description2 extends AppCompatActivity {
 
-    Button r,b,b1,nh;
+    Button r,b,b1,nh,bt;
     TextView t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12;
     String comp,x;
     String []result,List1;
@@ -81,6 +81,14 @@ public class Description2 extends AppCompatActivity {
         t11.setTypeface(null, Typeface.BOLD_ITALIC);
         b1=findViewById(R.id.rl);
         nh=findViewById(R.id.nh);
+        bt=findViewById(R.id.bt);
+        bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Description2.this,listoftent.class);
+                startActivity(intent);
+            }
+        });
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -8,6 +8,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.graphics.Typeface;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -16,6 +17,7 @@ import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
+import android.widget.TextView;
 import android.widget.Toast;
 public class Nearby extends AppCompatActivity {
     LocationManager locationManager;
@@ -38,6 +40,7 @@ public class Nearby extends AppCompatActivity {
     RadioButton r1,r2,r3,r4;
     int i = 0,flag=0;
     SharedPreferences prefs;
+    TextView t1,t2,t3,t4,t5;
     SharedPreferences.Editor editor;
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
@@ -59,6 +62,16 @@ public class Nearby extends AppCompatActivity {
         r2=findViewById(R.id.rd2);
         r3=findViewById(R.id.rd3);
         r4=findViewById(R.id.rd4);
+        t1=findViewById(R.id.t1);
+        t2=findViewById(R.id.t3);
+        t3=findViewById(R.id.t5);
+        t4=findViewById(R.id.t7);
+        t5=findViewById(R.id.t9);
+        t1.setTypeface(null, Typeface.BOLD_ITALIC);
+        t2.setTypeface(null, Typeface.BOLD_ITALIC);
+        t3.setTypeface(null, Typeface.BOLD_ITALIC);
+        t4.setTypeface(null, Typeface.BOLD_ITALIC);
+        t5.setTypeface(null, Typeface.BOLD_ITALIC);
         final Location loc = new Location("");
         x="";
         locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
