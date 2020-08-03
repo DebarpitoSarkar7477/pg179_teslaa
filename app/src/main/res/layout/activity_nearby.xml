@@ -104,12 +104,12 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Normal ghat"
+                android:text="Normal Ghat / Ritual Ghat"
                 android:id="@+id/rd2"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cremation ghat"
+                android:text="Cremation Ghat / Samshaan Ghat"
                 android:id="@+id/rd3"/>
             <RadioButton
                 android:layout_width="wrap_content"
