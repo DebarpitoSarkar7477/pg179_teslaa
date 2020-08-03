@@ -24,12 +24,9 @@ import java.util.Hashtable;
 import java.util.Map;
 
 public class Donation extends AppCompatActivity {
-    EditText e1,e2,e3,e6,e7,e8;
-    Spinner e4,e5;
+    EditText e1,e2,e3,e4;
     Button b1;
-    String[] m=new String[]{"Select Month", "01", "02"};
-    String[] m1=new String[]{"Select Year", "2021", "2022"};
-    String x,y,Reward;
+    String Com;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,39 +36,7 @@ public class Donation extends AppCompatActivity {
         e2=findViewById(R.id.e2);
         e3=findViewById(R.id.e3);
         e4=findViewById(R.id.e4);
-        e5=findViewById(R.id.e5);
-        e6=findViewById(R.id.e6);
-        e7=findViewById(R.id.e7);
-        e8=findViewById(R.id.e8);
         b1=findViewById(R.id.b1);
-        ArrayAdapter<String> adapter=new ArrayAdapter<String>(Donation.this, android.R.layout.simple_spinner_item,m);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        e4.setAdapter(adapter);
-        ArrayAdapter<String> adapter1=new ArrayAdapter<String>(Donation.this, android.R.layout.simple_spinner_item,m1);
-        adapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        e5.setAdapter(adapter1);
-        e4.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                x=adapterView.getItemAtPosition(i).toString();
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> adapterView) {
-
-            }
-        });
-        e5.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                y=adapterView.getItemAtPosition(i).toString();
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> adapterView) {
-
-            }
-        });
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -81,39 +46,19 @@ public class Donation extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Email is empty.", Toast.LENGTH_SHORT).show();
                 } else if (e3.getText().toString().equals("")) {
                     Toast.makeText(getApplicationContext(), "Card Number is empty.", Toast.LENGTH_SHORT).show();
-                } else if (x.equals("Select")) {
-                    Toast.makeText(getApplicationContext(), "Month is not selected", Toast.LENGTH_SHORT).show();
-                } else if (y.equals("Select")) {
-                    Toast.makeText(getApplicationContext(), "Year is not selected", Toast.LENGTH_SHORT).show();
-                }
-                else if (e6.getText().toString().equals("")) {
-                    Toast.makeText(getApplicationContext(), "CVV is required", Toast.LENGTH_SHORT).show();
-                }
-                else if (e7.getText().toString().equals("")) {
-                    Toast.makeText(getApplicationContext(), "Amount is required", Toast.LENGTH_SHORT).show();
-                }
-                else if (e8.getText().toString().equals("")) {
-                    Toast.makeText(getApplicationContext(), "Name on Card is required", Toast.LENGTH_SHORT).show();
                 }
                 else{
-                    float f=Float.parseFloat(e7.getText().toString());
-                    if(f<=100)
-                        Reward="Voucher1";
-                    else if(f>100 && f<=1000)
-                        Reward="Voucher2";
-                    else if(f>1000 && f<=5000)
-                        Reward="Voucher3";
-                    else if(f>5000 && f<=10000)
-                        Reward="Voucher4";
-                    else if(f>10000)
-                        Reward="Voucher5";
+                    if(e4.getText().toString().equals(""))
+                        Com="No Comments";
+                    else
+                        Com=e4.getText().toString();
                     StringRequest stringRequest = new StringRequest(Request.Method.POST, "http:192.168.29.117/Subject/Reward.php", new Response.Listener<String>() {
                         @Override
                         public void onResponse(String response) {
                             // Toast.makeText(getApplicationContext(),response,Toast.LENGTH_LONG).show();
 
                             if (response.equals("1")) {
-                                Toast.makeText(getApplicationContext(), "Payment Successful. You will recieve the rewards soon..", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "You will soon receive message...", Toast.LENGTH_SHORT).show();
                                 Intent intent=new Intent(Donation.this,MainActivity2.class);
                                 startActivity(intent);
                                 Donation.this.finish();
@@ -133,8 +78,8 @@ public class Donation extends AppCompatActivity {
                             Map<String, String> params = new Hashtable<String, String>();
                             params.put("name", e1.getText().toString());
                             params.put("email", e2.getText().toString());
-                            params.put("amount", e7.getText().toString());
-                            params.put("reward", Reward);
+                            params.put("amount", e3.getText().toString());
+                            params.put("reward", Com);
                             return params;
                         }
                     };
