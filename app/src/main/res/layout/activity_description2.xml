@@ -116,7 +116,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/p"
-            android:layout_below="@+id/nh"
+            android:layout_below="@+id/bt"
             android:text="Text Nearby Police Station"/>
 
     </RelativeLayout>
